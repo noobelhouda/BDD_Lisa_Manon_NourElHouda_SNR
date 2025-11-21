@@ -1,0 +1,5 @@
+app,SkisatiResa
+lang,en
+db,./data/skisati.db
+bundle,./config/messages_bundle_
+auth,yes

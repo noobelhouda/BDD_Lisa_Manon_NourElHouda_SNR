@@ -1,0 +1,896 @@
+﻿stud_number;first_name;last_name;gender;email;stud_role;asso_name;asso_desc
+9699114;Ludwig;JACQUET;M;ludwig.jacquet@etudiant.univ-rennes1.fr;president;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1978626;Rolande;ROUAULT;F;rolande.rouault@etudiant.univ-rennes1.fr;vice-president;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5421882;Pierre Louis;PRIEUR;H;pierre louis.prieur@etudiant.univ-rennes1.fr;secretary;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8737405;Jean-Brice;GENDREAU;garçon;jean-brice.gendreau@etudiant.univ-rennes1.fr;treasurer;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9662058;Philppe;VEGER;garçon;philppe.veger@etudiant.univ-rennes1.fr;president;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7680585;Jean-Pierre;MORISSET;garçon;jean-pierre.morisset@etudiant.univ-rennes1.fr;vice-president;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6223280;Martial;FRETTE;M;martial.frette@etudiant.univ-rennes1.fr;secretary;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+2265713;Jean-Luc;GROSBOIS;M;jean-luc.grosbois@etudiant.univ-rennes1.fr;treasurer;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5148985;Jean-Fred;FRIBAULT;H;jean-fred.fribault@etudiant.univ-rennes1.fr;president;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4266865;Rachida;VERGNEAU;F;rachida.vergneau@etudiant.univ-rennes1.fr;vice-president;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3946299;Alberto;DEVEAU;M;alberto.deveau@etudiant.univ-rennes1.fr;secretary;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3654631;Noëlle;BLOT;M;noelle.blot@etudiant.univ-rennes1.fr;treasurer;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+5500184;Christianne;BIOTTEAU;W;christianne.biotteau@etudiant.univ-rennes1.fr;president;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9396096;Claude;MAROT;F;claude.marot@etudiant.univ-rennes1.fr;vice-president;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+5654485;Rachel;CLAUDE;M;rachel.claude@etudiant.univ-rennes1.fr;secretary;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3434843;Laure;BOISSINOT;fille;laure.boissinot@etudiant.univ-rennes1.fr;treasurer;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2960755;Helmut;CHALOPIN;M;helmut.chalopin@etudiant.univ-rennes1.fr;president;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5928897;Assia;TELLIER;F;assia.tellier@etudiant.univ-rennes1.fr;vice-president;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5679520;Ismaël;DIXNEUF;M;ismael.dixneuf@etudiant.univ-rennes1.fr;secretary;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7848592;Jean-Max;RIOU;M;jean-max.riou@etudiant.univ-rennes1.fr;treasurer;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5744405;Lisette;JOURDAIN;fille;lisette.jourdain@etudiant.univ-rennes1.fr;president;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8132386;Mounir;HERBERT;garçon;mounir.herbert@etudiant.univ-rennes1.fr;vice-president;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1125045;Chantale;ROGER;W;chantale.roger@etudiant.univ-rennes1.fr;secretary;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1865983;Jean-Léon;CHEREAU;H;jean-leon.chereau@etudiant.univ-rennes1.fr;treasurer;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8788150;Elizabeth;PERRAULT;F;elizabeth.perrault@etudiant.univ-rennes1.fr;president;Club Conférence;club qui organise des conférences 
+8573060;Khadija;DOLLET;fille;khadija.dollet@etudiant.univ-rennes1.fr;vice-president;Club Conférence;club qui organise des conférences 
+982945;Romaric;ESNARD;M;romaric.esnard@etudiant.univ-rennes1.fr;secretary;Club Conférence;club qui organise des conférences 
+168621;Leïla;JURET;fille;leila.juret@etudiant.univ-rennes1.fr;treasurer;Club Conférence;club qui organise des conférences 
+248790;Isidore;ROSSIGNOL;H;isidore.rossignol@etudiant.univ-rennes1.fr;president;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+254339;Omar;BODIN;garçon;omar.bodin@etudiant.univ-rennes1.fr;vice-president;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9535159;Louis;DESBOIS;M;louis.desbois@etudiant.univ-rennes1.fr;secretary;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5970331;Maryvonne;FOUGERE;W;maryvonne.fougere@etudiant.univ-rennes1.fr;treasurer;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+4720458;Godefroy;CHENE;garçon;godefroy.chene@etudiant.univ-rennes1.fr;president;Club Apero;
+3043614;Dany;LIGER;H;dany.liger@etudiant.univ-rennes1.fr;vice-president;Club Apero;
+7231589;Jacob;BOURRIGAULT;M;jacob.bourrigault@etudiant.univ-rennes1.fr;secretary;Club Apero;
+3635356;Jean Toussaint;MICHELET;H;jean toussaint.michelet@etudiant.univ-rennes1.fr;treasurer;Club Apero;
+4035655;Michéle;MAILLARD;W;michele.maillard@etudiant.univ-rennes1.fr;president;Club Danse;
+494042;Katell;PAYRAUDEAU;F;katell.payraudeau@etudiant.univ-rennes1.fr;vice-president;Club Danse;
+2206687;Marie Paule;GODEFROY;F;marie paule.godefroy@etudiant.univ-rennes1.fr;secretary;Club Danse;
+101046;Emmanuelle;DAGUIN;F;emmanuelle.daguin@etudiant.univ-rennes1.fr;treasurer;Club Danse;
+7997977;Eva;SORIN;fille;eva.sorin@etudiant.univ-rennes1.fr;president;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2883408;Fernando;BENARD;M;fernando.benard@etudiant.univ-rennes1.fr;vice-president;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3724573;Ruddy;BARBAULT;M;ruddy.barbault@etudiant.univ-rennes1.fr;secretary;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2982167;Edouard;DALAINE;M;edouard.dalaine@etudiant.univ-rennes1.fr;treasurer;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7719175;Eliane;CHOISNE;M;eliane.choisne@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7719175;Eliane;CHOISNE;M;eliane.choisne@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7719175;Eliane;CHOISNE;M;eliane.choisne@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7208231;Florian;COEFFARD;M;florian.coeffard@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7208231;Florian;COEFFARD;M;florian.coeffard@etudiant.univ-rennes1.fr;member;Club Apero;
+7208231;Florian;COEFFARD;M;florian.coeffard@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5876984;Jacob;ROUSSIERE;garçon;jacob.roussiere@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7874799;Timothée;COUILLAUD;H;timothee.couillaud@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7874799;Timothée;COUILLAUD;H;timothee.couillaud@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7874799;Timothée;COUILLAUD;H;timothee.couillaud@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2321657;Léonie;RELION;F;leonie.relion@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+1056327;Prosper;FERRON;H;prosper.ferron@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1056327;Prosper;FERRON;H;prosper.ferron@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1056327;Prosper;FERRON;H;prosper.ferron@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2357186;Marie-Helene;COUVREUR;W;marie-helene.couvreur@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+2357186;Marie-Helene;COUVREUR;W;marie-helene.couvreur@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2357186;Marie-Helene;COUVREUR;W;marie-helene.couvreur@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8298259;Béatrix;CHOISNET;fille;beatrix.choisnet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7085217;Geneviève;RAGUIN;W;genevieve.raguin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7085217;Geneviève;RAGUIN;W;genevieve.raguin@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7085217;Geneviève;RAGUIN;W;genevieve.raguin@etudiant.univ-rennes1.fr;member;Club Danse;
+2542500;Karl;ANIS;H;karl.anis@etudiant.univ-rennes1.fr;member;Club Danse;
+6060655;Gina;GUILLEMET;fille;gina.guillemet@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3656441;Camille;BOUET;garçon;camille.bouet@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+8264456;Juliette;RENOUX;F;juliette.renoux@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+8264456;Juliette;RENOUX;F;juliette.renoux@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+2199095;Marie-Bernadette;PERRON;fille;marie-bernadette.perron@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2199095;Marie-Bernadette;PERRON;fille;marie-bernadette.perron@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2199095;Marie-Bernadette;PERRON;fille;marie-bernadette.perron@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3808222;Frantz;REVERDY;M;frantz.reverdy@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3808222;Frantz;REVERDY;M;frantz.reverdy@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3808222;Frantz;REVERDY;M;frantz.reverdy@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1443127;Marie-Céline;DENECHERE;fille;marie-celine.denechere@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+8841242;Françoise;BOUDIER;M;francoise.boudier@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1548313;Claude;PAULEAU;F;claude.pauleau@etudiant.univ-rennes1.fr;member;Club Apero;
+1548313;Claude;PAULEAU;F;claude.pauleau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1548313;Claude;PAULEAU;F;claude.pauleau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7812504;Steeve;LUCAS;H;steeve.lucas@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7812504;Steeve;LUCAS;H;steeve.lucas@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7812504;Steeve;LUCAS;H;steeve.lucas@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6684033;Nicole;PREZELIN;M;nicole.prezelin@etudiant.univ-rennes1.fr;member;Club Apero;
+6684033;Nicole;PREZELIN;M;nicole.prezelin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6987488;Lise-Marie;BEAUMIER;W;lise-marie.beaumier@etudiant.univ-rennes1.fr;member;Club Danse;
+1489259;Marie-Joelle;HAMON;fille;marie-joelle.hamon@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1816455;Guy;GEFFARD;M;guy.geffard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1816455;Guy;GEFFARD;M;guy.geffard@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1816455;Guy;GEFFARD;M;guy.geffard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9419081;Arnauld;MESNARD;garçon;arnauld.mesnard@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4142842;Jean-José;BONNEAU;M;jean-jose.bonneau@etudiant.univ-rennes1.fr;member;Club Apero;
+2492393;Moussa;LEMOINE;H;moussa.lemoine@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2492393;Moussa;LEMOINE;H;moussa.lemoine@etudiant.univ-rennes1.fr;member;Club Danse;
+2492393;Moussa;LEMOINE;H;moussa.lemoine@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7552324;Huguette;LAMBERT;W;huguette.lambert@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7552324;Huguette;LAMBERT;W;huguette.lambert@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1143077;Stéphane;BOISTAULT;F;stephane.boistault@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1143077;Stéphane;BOISTAULT;F;stephane.boistault@etudiant.univ-rennes1.fr;member;Club Apero;
+3654729;Cendrine;GOHIER;F;cendrine.gohier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3654729;Cendrine;GOHIER;F;cendrine.gohier@etudiant.univ-rennes1.fr;member;Club Apero;
+3654729;Cendrine;GOHIER;F;cendrine.gohier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6838348;Jean-Charles;LEBRUN;H;jean-charles.lebrun@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6838348;Jean-Charles;LEBRUN;H;jean-charles.lebrun@etudiant.univ-rennes1.fr;member;Club Danse;
+6838348;Jean-Charles;LEBRUN;H;jean-charles.lebrun@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7272063;Valérie;MAILLOCHON;fille;valerie.maillochon@etudiant.univ-rennes1.fr;member;Club Danse;
+4726982;Doris;LANDRY;fille;doris.landry@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+7339596;Najia;ALIGON;W;najia.aligon@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6949831;Edwige;CHATEIGNER;F;edwige.chateigner@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6949831;Edwige;CHATEIGNER;F;edwige.chateigner@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7930059;Marianne;LE GAL;H;marianne.le gal@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+7930059;Marianne;LE GAL;H;marianne.le gal@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1704351;Inès;﻿MARTIN;fille;ines.martin@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1704351;Inès;﻿MARTIN;fille;ines.martin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+138039;Helen;COIFFARD;fille;helen.coiffard@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+138039;Helen;COIFFARD;fille;helen.coiffard@etudiant.univ-rennes1.fr;member;Club Apero;
+138039;Helen;COIFFARD;fille;helen.coiffard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7971456;Salim;GRIFFON;M;salim.griffon@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7971456;Salim;GRIFFON;M;salim.griffon@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+1119943;Maude;ALGOURDIN;fille;maude.algourdin@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1119943;Maude;ALGOURDIN;fille;maude.algourdin@etudiant.univ-rennes1.fr;member;Club Apero;
+7467470;Helga;GERNIGON;F;helga.gernigon@etudiant.univ-rennes1.fr;member;Club Apero;
+7467470;Helga;GERNIGON;F;helga.gernigon@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7467470;Helga;GERNIGON;F;helga.gernigon@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3479955;Marie-Elisabeth;RAVARY;F;marie-elisabeth.ravary@etudiant.univ-rennes1.fr;member;Club Danse;
+3479955;Marie-Elisabeth;RAVARY;F;marie-elisabeth.ravary@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+6393605;Huguette;BOURBON;W;huguette.bourbon@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6507216;Paul-André;LEFEVRE;H;paul-andre.lefevre@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6507216;Paul-André;LEFEVRE;H;paul-andre.lefevre@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4239662;Ursula;LHERBETTE;fille;ursula.lherbette@etudiant.univ-rennes1.fr;member;Club Danse;
+4239662;Ursula;LHERBETTE;fille;ursula.lherbette@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4239662;Ursula;LHERBETTE;fille;ursula.lherbette@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5089004;Vincenza;DELAHAIE;fille;vincenza.delahaie@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5089004;Vincenza;DELAHAIE;fille;vincenza.delahaie@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5089004;Vincenza;DELAHAIE;fille;vincenza.delahaie@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+975616;Ghislaine;GUIARD;garçon;ghislaine.guiard@etudiant.univ-rennes1.fr;member;Club Danse;
+975616;Ghislaine;GUIARD;garçon;ghislaine.guiard@etudiant.univ-rennes1.fr;member;Club Apero;
+8099037;Maïté;BARAUD;W;maite.baraud@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9976281;Jean-Richard;RAPICAULT;M;jean-richard.rapicault@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9976281;Jean-Richard;RAPICAULT;M;jean-richard.rapicault@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9976281;Jean-Richard;RAPICAULT;M;jean-richard.rapicault@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6768024;Ida;DAVIAU;F;ida.daviau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+145894;Marie Noelle;COSTE;fille;marie noelle.coste@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+145894;Marie Noelle;COSTE;fille;marie noelle.coste@etudiant.univ-rennes1.fr;member;Club Danse;
+145894;Marie Noelle;COSTE;fille;marie noelle.coste@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8775967;Claudio;ROUILLE;M;claudio.rouille@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8775967;Claudio;ROUILLE;M;claudio.rouille@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8775967;Claudio;ROUILLE;M;claudio.rouille@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6558582;Marie-Line;CHARPENTIER;F;marie-line.charpentier@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+34297;Marie-Astrid;TROST;F;marie-astrid.trost@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+34297;Marie-Astrid;TROST;F;marie-astrid.trost@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+34297;Marie-Astrid;TROST;F;marie-astrid.trost@etudiant.univ-rennes1.fr;member;Club Apero;
+6432702;Maude;HALBERT;fille;maude.halbert@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6432702;Maude;HALBERT;fille;maude.halbert@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7327945;Dolorès;GAUGAIN;fille;dolores.gaugain@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7327945;Dolorès;GAUGAIN;fille;dolores.gaugain@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7327945;Dolorès;GAUGAIN;fille;dolores.gaugain@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9287286;Marco;BROSSAS;H;marco.brossas@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9287286;Marco;BROSSAS;H;marco.brossas@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9287286;Marco;BROSSAS;H;marco.brossas@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5390269;Philomène;DA SILVA;W;philomene.da silva@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5390269;Philomène;DA SILVA;W;philomene.da silva@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5390269;Philomène;DA SILVA;W;philomene.da silva@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3654438;Walter;LAVENIER;H;walter.lavenier@etudiant.univ-rennes1.fr;member;Club Apero;
+3654438;Walter;LAVENIER;H;walter.lavenier@etudiant.univ-rennes1.fr;member;Club Danse;
+3654438;Walter;LAVENIER;H;walter.lavenier@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+4071677;Marie-Joëlle;DEROUET;F;marie-joelle.derouet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+4071677;Marie-Joëlle;DEROUET;F;marie-joelle.derouet@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4071677;Marie-Joëlle;DEROUET;F;marie-joelle.derouet@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9061188;Omar;BERTAUD;H;omar.bertaud@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9061188;Omar;BERTAUD;H;omar.bertaud@etudiant.univ-rennes1.fr;member;Club Danse;
+8486227;Marie-Michèle;PERRAULT;fille;marie-michele.perrault@etudiant.univ-rennes1.fr;member;Club Danse;
+8486227;Marie-Michèle;PERRAULT;fille;marie-michele.perrault@etudiant.univ-rennes1.fr;member;Club Apero;
+8486227;Marie-Michèle;PERRAULT;fille;marie-michele.perrault@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+1542780;Peggy;GENDRY;W;peggy.gendry@etudiant.univ-rennes1.fr;member;Club Danse;
+4207744;Gaby;PANNEAU;H;gaby.panneau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4207744;Gaby;PANNEAU;H;gaby.panneau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1810422;Mireille;LEGER;fille;mireille.leger@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9492774;Dorothée;PINARD;fille;dorothee.pinard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9492774;Dorothée;PINARD;fille;dorothee.pinard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7145865;Fatma;COUVREUX;fille;fatma.couvreux@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7145865;Fatma;COUVREUX;fille;fatma.couvreux@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3355919;Jean-Pol;BELNOU;M;jean-pol.belnou@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3355919;Jean-Pol;BELNOU;M;jean-pol.belnou@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6813274;Marietta;VION;F;marietta.vion@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6813274;Marietta;VION;F;marietta.vion@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+6813274;Marietta;VION;F;marietta.vion@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1175545;Jacki;BEZIE;garçon;jacki.bezie@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+517862;Fleur;SECHER;fille;fleur.secher@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+517862;Fleur;SECHER;fille;fleur.secher@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+517862;Fleur;SECHER;fille;fleur.secher@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8147057;Florian;BEAUMONT;M;florian.beaumont@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+8147057;Florian;BEAUMONT;M;florian.beaumont@etudiant.univ-rennes1.fr;member;Club Apero;
+1950948;Marinette;CERISIER;fille;marinette.cerisier@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1950948;Marinette;CERISIER;fille;marinette.cerisier@etudiant.univ-rennes1.fr;member;Club Apero;
+7009087;Daniela;POILANE;fille;daniela.poilane@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7009087;Daniela;POILANE;fille;daniela.poilane@etudiant.univ-rennes1.fr;member;Club Danse;
+7009087;Daniela;POILANE;fille;daniela.poilane@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2319720;Hocine;CUSSONNEAU;garçon;hocine.cussonneau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2319720;Hocine;CUSSONNEAU;garçon;hocine.cussonneau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8861766;Elvis;COSNARD;M;elvis.cosnard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8861766;Elvis;COSNARD;M;elvis.cosnard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+8861766;Elvis;COSNARD;M;elvis.cosnard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6424608;Marie-Lise;JOUAN;F;marie-lise.jouan@etudiant.univ-rennes1.fr;member;Club Danse;
+6424608;Marie-Lise;JOUAN;F;marie-lise.jouan@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7206006;Jérémy;DESGRE;M;jeremy.desgre@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7206006;Jérémy;DESGRE;M;jeremy.desgre@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7206006;Jérémy;DESGRE;M;jeremy.desgre@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5704838;Emmanuel;CHOLLET;garçon;emmanuel.chollet@etudiant.univ-rennes1.fr;member;Club Apero;
+5704838;Emmanuel;CHOLLET;garçon;emmanuel.chollet@etudiant.univ-rennes1.fr;member;Club Danse;
+455099;Antoinette;PERRAULT;fille;antoinette.perrault@etudiant.univ-rennes1.fr;member;Club Apero;
+455099;Antoinette;PERRAULT;fille;antoinette.perrault@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4121585;Colombe;LENOGUE;fille;colombe.lenogue@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4121585;Colombe;LENOGUE;fille;colombe.lenogue@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9695784;Conchita;ROHARD;F;conchita.rohard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9695784;Conchita;ROHARD;F;conchita.rohard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+934964;Anny;VOISINE;fille;anny.voisine@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6876230;Bérénice;VRAIN;fille;berenice.vrain@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6876230;Bérénice;VRAIN;fille;berenice.vrain@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6876230;Bérénice;VRAIN;fille;berenice.vrain@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7224833;Mariannick;DERSOIR;F;mariannick.dersoir@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+8261444;Anick;PICHAUD;W;anick.pichaud@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4884321;Geneviève;BLON;M;genevieve.blon@etudiant.univ-rennes1.fr;member;Club Apero;
+4884321;Geneviève;BLON;M;genevieve.blon@etudiant.univ-rennes1.fr;member;Club Danse;
+6136699;Aymeric;POIRIER;H;aymeric.poirier@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+4631172;Hamid;ALLUSSE;H;hamid.allusse@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4631172;Hamid;ALLUSSE;H;hamid.allusse@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+4631172;Hamid;ALLUSSE;H;hamid.allusse@etudiant.univ-rennes1.fr;member;Club Danse;
+455954;Florian;DIDIER;H;florian.didier@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3079755;Marie-Therese;RIBAULT;W;marie-therese.ribault@etudiant.univ-rennes1.fr;member;Club Apero;
+3079755;Marie-Therese;RIBAULT;W;marie-therese.ribault@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3079755;Marie-Therese;RIBAULT;W;marie-therese.ribault@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2284632;Jean-Hervé;DA SILVA;H;jean-herve.da silva@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2605131;Romain;BLANCHARD;H;romain.blanchard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2605131;Romain;BLANCHARD;H;romain.blanchard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+2605131;Romain;BLANCHARD;H;romain.blanchard@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6119439;Alison;CONSTANTIN;fille;alison.constantin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4493579;Karine;MAINDRON;garçon;karine.maindron@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9483832;Carmelo;BARBIN;M;carmelo.barbin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9483832;Carmelo;BARBIN;M;carmelo.barbin@etudiant.univ-rennes1.fr;member;Club Danse;
+9483832;Carmelo;BARBIN;M;carmelo.barbin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6360966;Eddie;PELLUAU;garçon;eddie.pelluau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8171384;Thérèse-Marie;PICARD;fille;therese-marie.picard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8171384;Thérèse-Marie;PICARD;fille;therese-marie.picard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9896491;Raphaelle;BUSSON;fille;raphaelle.busson@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5879679;Siméon;CHATAIGNER;garçon;simeon.chataigner@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3280740;Emilienne;BRANCHU;W;emilienne.branchu@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+1173540;Karin;GENTILHOMME;W;karin.gentilhomme@etudiant.univ-rennes1.fr;member;Club Apero;
+1173540;Karin;GENTILHOMME;W;karin.gentilhomme@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1173540;Karin;GENTILHOMME;W;karin.gentilhomme@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8200792;David;MAILLET;W;david.maillet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8200792;David;MAILLET;W;david.maillet@etudiant.univ-rennes1.fr;member;Club Danse;
+8200792;David;MAILLET;W;david.maillet@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+1696413;Pierre André;LIZE;M;pierre andre.lize@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1696413;Pierre André;LIZE;M;pierre andre.lize@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+697403;Romuald;ROCHAIS;garçon;romuald.rochais@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+697403;Romuald;ROCHAIS;garçon;romuald.rochais@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+697403;Romuald;ROCHAIS;garçon;romuald.rochais@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2338037;Anicet;PAUL;garçon;anicet.paul@etudiant.univ-rennes1.fr;member;Club Apero;
+2338037;Anicet;PAUL;garçon;anicet.paul@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+5559063;Magali;BLAITEAU;M;magali.blaiteau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1829605;Ariane;BOULLAIS;W;ariane.boullais@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7889033;Coralie;CHEVET;W;coralie.chevet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7889033;Coralie;CHEVET;W;coralie.chevet@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7889033;Coralie;CHEVET;W;coralie.chevet@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6734111;Théo;DELARUE;M;theo.delarue@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6734111;Théo;DELARUE;M;theo.delarue@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+4131535;Marie-Alice;LEGRAND;W;marie-alice.legrand@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+4131535;Marie-Alice;LEGRAND;W;marie-alice.legrand@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9302400;Karim;NAULEAU;H;karim.nauleau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+9302400;Karim;NAULEAU;H;karim.nauleau@etudiant.univ-rennes1.fr;member;Club Danse;
+1178592;Christine;PROUST;H;christine.proust@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1178592;Christine;PROUST;H;christine.proust@etudiant.univ-rennes1.fr;member;Club Apero;
+2077845;Fatiha;TESSIER;W;fatiha.tessier@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2077845;Fatiha;TESSIER;W;fatiha.tessier@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2077845;Fatiha;TESSIER;W;fatiha.tessier@etudiant.univ-rennes1.fr;member;Club Danse;
+4244014;Thiery;LECLAIR;M;thiery.leclair@etudiant.univ-rennes1.fr;member;Club Apero;
+2708101;Jean-Marie;TAVEAU;garçon;jean-marie.taveau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2708101;Jean-Marie;TAVEAU;garçon;jean-marie.taveau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+2708101;Jean-Marie;TAVEAU;garçon;jean-marie.taveau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4988197;Dorothee;FEVRIER;F;dorothee.fevrier@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4988197;Dorothee;FEVRIER;F;dorothee.fevrier@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4988197;Dorothee;FEVRIER;F;dorothee.fevrier@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+93782;Suzanne;AUBRY;H;suzanne.aubry@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+93782;Suzanne;AUBRY;H;suzanne.aubry@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+93782;Suzanne;AUBRY;H;suzanne.aubry@etudiant.univ-rennes1.fr;member;Club Danse;
+8156351;Eugène;ANDRE;M;eugene.andre@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8156351;Eugène;ANDRE;M;eugene.andre@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8018418;Marianne;GALLET;M;marianne.gallet@etudiant.univ-rennes1.fr;member;Club Apero;
+8018418;Marianne;GALLET;M;marianne.gallet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+4226631;Thierry;MIGNOT;M;thierry.mignot@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+6032026;Guylène;MORIN;F;guylene.morin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9921861;Sylvestre;DEVY;H;sylvestre.devy@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5224127;Ernestine;BELANGER;F;ernestine.belanger@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5224127;Ernestine;BELANGER;F;ernestine.belanger@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+4022307;Corine;HOMER;fille;corine.homer@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4022307;Corine;HOMER;fille;corine.homer@etudiant.univ-rennes1.fr;member;Club Apero;
+9629022;Cendrine;BOURBON;fille;cendrine.bourbon@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+378085;Prosper;HUCHON;H;prosper.huchon@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7183635;Marie-Jeanne;DUBREUIL;garçon;marie-jeanne.dubreuil@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7183635;Marie-Jeanne;DUBREUIL;garçon;marie-jeanne.dubreuil@etudiant.univ-rennes1.fr;member;Club Danse;
+8667146;Jeremy;AUBINEAU;H;jeremy.aubineau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+8667146;Jeremy;AUBINEAU;H;jeremy.aubineau@etudiant.univ-rennes1.fr;member;Club Danse;
+6218844;Meriem;CHUDEAU;W;meriem.chudeau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+8449224;Ahmed;LHERMITEAU;H;ahmed.lhermiteau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8449224;Ahmed;LHERMITEAU;H;ahmed.lhermiteau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6066463;Janick;COUDERT;W;janick.coudert@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6066463;Janick;COUDERT;W;janick.coudert@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6066463;Janick;COUDERT;W;janick.coudert@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7367140;Joël;GRIFFON;fille;joel.griffon@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7367140;Joël;GRIFFON;fille;joel.griffon@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9754036;Dorothée;BIENVENU;W;dorothee.bienvenu@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9754036;Dorothée;BIENVENU;W;dorothee.bienvenu@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9754036;Dorothée;BIENVENU;W;dorothee.bienvenu@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7279332;Lorène;TREMBLAY;W;lorene.tremblay@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+7279332;Lorène;TREMBLAY;W;lorene.tremblay@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7279332;Lorène;TREMBLAY;W;lorene.tremblay@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8559938;Rose-May;CRESPIN;W;rose-may.crespin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+8559938;Rose-May;CRESPIN;W;rose-may.crespin@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8559938;Rose-May;CRESPIN;W;rose-may.crespin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+8298694;Diego;PETIT;H;diego.petit@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+8298694;Diego;PETIT;H;diego.petit@etudiant.univ-rennes1.fr;member;Club Apero;
+8113264;Georges;TRICOT;garçon;georges.tricot@etudiant.univ-rennes1.fr;member;Club Apero;
+8113264;Georges;TRICOT;garçon;georges.tricot@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7469007;Stephane;UZUREAU;garçon;stephane.uzureau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7469007;Stephane;UZUREAU;garçon;stephane.uzureau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7469007;Stephane;UZUREAU;garçon;stephane.uzureau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7095740;Flora;HUBAULT;fille;flora.hubault@etudiant.univ-rennes1.fr;member;Club Danse;
+7095740;Flora;HUBAULT;fille;flora.hubault@etudiant.univ-rennes1.fr;member;Club Apero;
+660365;Annabel;CROSNIER;fille;annabel.crosnier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3339188;Marie-Elisabeth;VIVION;W;marie-elisabeth.vivion@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3339188;Marie-Elisabeth;VIVION;W;marie-elisabeth.vivion@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3339188;Marie-Elisabeth;VIVION;W;marie-elisabeth.vivion@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5810703;Severine;REBONDY;W;severine.rebondy@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5810703;Severine;REBONDY;W;severine.rebondy@etudiant.univ-rennes1.fr;member;Club Apero;
+3826518;Gina;BELANGER;W;gina.belanger@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9437095;Werner;HULLIN;M;werner.hullin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9405837;Marinette;JURET;W;marinette.juret@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+5679002;Solenne;BLANCHARD;W;solenne.blanchard@etudiant.univ-rennes1.fr;member;Club Danse;
+5679002;Solenne;BLANCHARD;W;solenne.blanchard@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9094742;Thérèse-Marie;THOMAS;F;therese-marie.thomas@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9094742;Thérèse-Marie;THOMAS;F;therese-marie.thomas@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9094742;Thérèse-Marie;THOMAS;F;therese-marie.thomas@etudiant.univ-rennes1.fr;member;Club Apero;
+7489903;Davy;ALEXANDRE;M;davy.alexandre@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9413847;Tamara;CHOLET;fille;tamara.cholet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9413847;Tamara;CHOLET;fille;tamara.cholet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9413847;Tamara;CHOLET;fille;tamara.cholet@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7311187;Hugo;DESHAYES;M;hugo.deshayes@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8203047;Désiré;POTTIER;H;desire.pottier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8203047;Désiré;POTTIER;H;desire.pottier@etudiant.univ-rennes1.fr;member;Club Apero;
+3411639;Annaïck;CRETIN;F;annaick.cretin@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+3411639;Annaïck;CRETIN;F;annaick.cretin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3411639;Annaïck;CRETIN;F;annaick.cretin@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8516750;Irénée;DEVEAU;garçon;irenee.deveau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+8516750;Irénée;DEVEAU;garçon;irenee.deveau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8516750;Irénée;DEVEAU;garçon;irenee.deveau@etudiant.univ-rennes1.fr;member;Club Danse;
+5352488;Pauline;JOLIVET;F;pauline.jolivet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7101049;Daniela;DINAND;fille;daniela.dinand@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6359723;Axel;POITOU;garçon;axel.poitou@etudiant.univ-rennes1.fr;member;Club Apero;
+6359723;Axel;POITOU;garçon;axel.poitou@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6359723;Axel;POITOU;garçon;axel.poitou@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9428129;Florine;DUBIN;F;florine.dubin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9428129;Florine;DUBIN;F;florine.dubin@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5633652;Jerôme;FLECHEAU;M;jerome.flecheau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5633652;Jerôme;FLECHEAU;M;jerome.flecheau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6976364;Juliana;BRECHETEAU;fille;juliana.brecheteau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9034456;Arnold;COUTAND;H;arnold.coutand@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8710431;Richard;BLUTEAU;M;richard.bluteau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7662077;Gianni;BARBARIN;M;gianni.barbarin@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7662077;Gianni;BARBARIN;M;gianni.barbarin@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2038955;Roger;BOURSIER;garçon;roger.boursier@etudiant.univ-rennes1.fr;member;Club Apero;
+2838672;Armel;BOCHEREAU;H;armel.bochereau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+4280311;Claire;COSNARD;garçon;claire.cosnard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4280311;Claire;COSNARD;garçon;claire.cosnard@etudiant.univ-rennes1.fr;member;Club Apero;
+4280311;Claire;COSNARD;garçon;claire.cosnard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+3703398;Dalila;LEMAITRE;W;dalila.lemaitre@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3703398;Dalila;LEMAITRE;W;dalila.lemaitre@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3703398;Dalila;LEMAITRE;W;dalila.lemaitre@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8175073;Maggy;FRAPPREAU;F;maggy.frappreau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8175073;Maggy;FRAPPREAU;F;maggy.frappreau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+519831;Kathy;SALE;F;kathy.sale@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+519831;Kathy;SALE;F;kathy.sale@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+519831;Kathy;SALE;F;kathy.sale@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6274814;Marie-Pierre;CAILLE;H;marie-pierre.caille@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7094369;Laurence;TURPAULT;fille;laurence.turpault@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7094369;Laurence;TURPAULT;fille;laurence.turpault@etudiant.univ-rennes1.fr;member;Club Danse;
+3049600;Quentin;AVRILLON;H;quentin.avrillon@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3049600;Quentin;AVRILLON;H;quentin.avrillon@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3049600;Quentin;AVRILLON;H;quentin.avrillon@etudiant.univ-rennes1.fr;member;Club Apero;
+9598109;Marie-Rose;LANGE;fille;marie-rose.lange@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9598109;Marie-Rose;LANGE;fille;marie-rose.lange@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9598109;Marie-Rose;LANGE;fille;marie-rose.lange@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+9874366;Marie Françoise;BOURDAIS;W;marie francoise.bourdais@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9874366;Marie Françoise;BOURDAIS;W;marie francoise.bourdais@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9094168;Sylvian;THOREAU;M;sylvian.thoreau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9094168;Sylvian;THOREAU;M;sylvian.thoreau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+4430853;Pierre;DAVY;garçon;pierre.davy@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+4430853;Pierre;DAVY;garçon;pierre.davy@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1321828;Bernard;SAUVAGET;H;bernard.sauvaget@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+2581714;Claudine;ROBICHON;garçon;claudine.robichon@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+519158;Martin;MARCEAU;H;martin.marceau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+519158;Martin;MARCEAU;H;martin.marceau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+519158;Martin;MARCEAU;H;martin.marceau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2711330;Francisque;BLUTEAU;H;francisque.bluteau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7967859;Marie-Danielle;ETIENNE;F;marie-danielle.etienne@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7967859;Marie-Danielle;ETIENNE;F;marie-danielle.etienne@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+5620513;Marie Claude;CAILLEAUD;W;marie claude.cailleaud@etudiant.univ-rennes1.fr;member;Club Apero;
+1673058;Marie Renée;GATE;W;marie renee.gate@etudiant.univ-rennes1.fr;member;Club Apero;
+1673058;Marie Renée;GATE;W;marie renee.gate@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6657126;Elvis;RABINEAU;H;elvis.rabineau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+361092;Jean-Lou;LEAU;M;jean-lou.leau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+361092;Jean-Lou;LEAU;M;jean-lou.leau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+361092;Jean-Lou;LEAU;M;jean-lou.leau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6939093;Angéla;PLESSIS;F;angela.plessis@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6939093;Angéla;PLESSIS;F;angela.plessis@etudiant.univ-rennes1.fr;member;Club Apero;
+9440070;Samir;SUROT;H;samir.surot@etudiant.univ-rennes1.fr;member;Club Apero;
+9440070;Samir;SUROT;H;samir.surot@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1691150;Eric;CLENET;M;eric.clenet@etudiant.univ-rennes1.fr;member;Club Apero;
+9876669;Gaetan;LAMOUREUX;garçon;gaetan.lamoureux@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+2104286;Marie-Caroline;LEMAITRE;F;marie-caroline.lemaitre@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6112233;Jean Charles;RAHARD;H;jean charles.rahard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6112233;Jean Charles;RAHARD;H;jean charles.rahard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6112233;Jean Charles;RAHARD;H;jean charles.rahard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1212318;Pierre Louis;BAUDON;garçon;pierre louis.baudon@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1212318;Pierre Louis;BAUDON;garçon;pierre louis.baudon@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1212318;Pierre Louis;BAUDON;garçon;pierre louis.baudon@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5676653;Renaud;BOUIN;H;renaud.bouin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9232177;Mathieu;BONDU;garçon;mathieu.bondu@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5491107;Rodrigue;JOUANNEAU;H;rodrigue.jouanneau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5491107;Rodrigue;JOUANNEAU;H;rodrigue.jouanneau@etudiant.univ-rennes1.fr;member;Club Danse;
+7505370;Félicie;BORDEAU;F;felicie.bordeau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9149537;Edward;FUZEAU;H;edward.fuzeau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9149537;Edward;FUZEAU;H;edward.fuzeau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9149537;Edward;FUZEAU;H;edward.fuzeau@etudiant.univ-rennes1.fr;member;Club Apero;
+6655783;Zineb;ALGOURDIN;W;zineb.algourdin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+6655783;Zineb;ALGOURDIN;W;zineb.algourdin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+137467;Jean-Lucien;LEVESQUE;H;jean-lucien.levesque@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+137467;Jean-Lucien;LEVESQUE;H;jean-lucien.levesque@etudiant.univ-rennes1.fr;member;Club Danse;
+137467;Jean-Lucien;LEVESQUE;H;jean-lucien.levesque@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5431327;Moise;LORRE;M;moise.lorre@etudiant.univ-rennes1.fr;member;Club Apero;
+4239962;Conchita;SUTEAU;fille;conchita.suteau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1653783;Erick;RUEL;garçon;erick.ruel@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1653783;Erick;RUEL;garçon;erick.ruel@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1653783;Erick;RUEL;garçon;erick.ruel@etudiant.univ-rennes1.fr;member;Club Apero;
+8347453;Régine;GEORGET;M;regine.georget@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8347453;Régine;GEORGET;M;regine.georget@etudiant.univ-rennes1.fr;member;Club Danse;
+8347453;Régine;GEORGET;M;regine.georget@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2571528;Samira;CHAUVIERE;W;samira.chauviere@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2571528;Samira;CHAUVIERE;W;samira.chauviere@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3532542;Linda;CIROT;F;linda.cirot@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3532542;Linda;CIROT;F;linda.cirot@etudiant.univ-rennes1.fr;member;Club Danse;
+3532542;Linda;CIROT;F;linda.cirot@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2385670;Marie Dominique;BEUROIS;F;marie dominique.beurois@etudiant.univ-rennes1.fr;member;Club Apero;
+2385670;Marie Dominique;BEUROIS;F;marie dominique.beurois@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9828995;Christophe;BARRAUD;W;christophe.barraud@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9828995;Christophe;BARRAUD;W;christophe.barraud@etudiant.univ-rennes1.fr;member;Club Danse;
+9828995;Christophe;BARRAUD;W;christophe.barraud@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6638000;David;JADAUD;fille;david.jadaud@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6638000;David;JADAUD;fille;david.jadaud@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6638000;David;JADAUD;fille;david.jadaud@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1963506;Vivien;RELION;garçon;vivien.relion@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1963506;Vivien;RELION;garçon;vivien.relion@etudiant.univ-rennes1.fr;member;Club Apero;
+1963506;Vivien;RELION;garçon;vivien.relion@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2466003;Leon;SOULARD;garçon;leon.soulard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2466003;Leon;SOULARD;garçon;leon.soulard@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2466003;Leon;SOULARD;garçon;leon.soulard@etudiant.univ-rennes1.fr;member;Club Danse;
+1946716;Romaric;CHOQUET;garçon;romaric.choquet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1946716;Romaric;CHOQUET;garçon;romaric.choquet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+9893872;Donat;ABELLARD;H;donat.abellard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9893872;Donat;ABELLARD;H;donat.abellard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1094114;Anne-Yvonne;DELAGE;F;anne-yvonne.delage@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1094114;Anne-Yvonne;DELAGE;F;anne-yvonne.delage@etudiant.univ-rennes1.fr;member;Club Apero;
+3122629;Gautier;DELAPORTE;garçon;gautier.delaporte@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+3122629;Gautier;DELAPORTE;garçon;gautier.delaporte@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+3530514;Helen;RABINEAU;F;helen.rabineau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3530514;Helen;RABINEAU;F;helen.rabineau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3530514;Helen;RABINEAU;F;helen.rabineau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+3349644;Carinne;BABARIT;F;carinne.babarit@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3349644;Carinne;BABARIT;F;carinne.babarit@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3349644;Carinne;BABARIT;F;carinne.babarit@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4265828;Denis;HODE;fille;denis.hode@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4265828;Denis;HODE;fille;denis.hode@etudiant.univ-rennes1.fr;member;Club Apero;
+2665152;Marie Odile;REVEILLERE;W;marie odile.reveillere@etudiant.univ-rennes1.fr;member;Club Danse;
+4583291;Suzy;COSNARD;fille;suzy.cosnard@etudiant.univ-rennes1.fr;member;Club Apero;
+4583291;Suzy;COSNARD;fille;suzy.cosnard@etudiant.univ-rennes1.fr;member;Club Danse;
+4583291;Suzy;COSNARD;fille;suzy.cosnard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1663442;Théodore;BOMARD;garçon;theodore.bomard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1663442;Théodore;BOMARD;garçon;theodore.bomard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1663442;Théodore;BOMARD;garçon;theodore.bomard@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1372826;Guy-Marie;FREMY;H;guy-marie.fremy@etudiant.univ-rennes1.fr;member;Club Danse;
+1372826;Guy-Marie;FREMY;H;guy-marie.fremy@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1372826;Guy-Marie;FREMY;H;guy-marie.fremy@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+400929;Vincenzo;EDIN;H;vincenzo.edin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+400929;Vincenzo;EDIN;H;vincenzo.edin@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+1942196;Constantin;LIZE;H;constantin.lize@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1942196;Constantin;LIZE;H;constantin.lize@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1942196;Constantin;LIZE;H;constantin.lize@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6370815;Marie-Josee;FRADIN;W;marie-josee.fradin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6370815;Marie-Josee;FRADIN;W;marie-josee.fradin@etudiant.univ-rennes1.fr;member;Club Apero;
+6370815;Marie-Josee;FRADIN;W;marie-josee.fradin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+5905613;Fany;LE ROY;W;fany.le roy@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+5905613;Fany;LE ROY;W;fany.le roy@etudiant.univ-rennes1.fr;member;Club Danse;
+9060073;Gilbert;MARQUET;M;gilbert.marquet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9060073;Gilbert;MARQUET;M;gilbert.marquet@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9060073;Gilbert;MARQUET;M;gilbert.marquet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2184742;Halima;CHALLIER;fille;halima.challier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2184742;Halima;CHALLIER;fille;halima.challier@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1562758;Pascaline;DUPONT;W;pascaline.dupont@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1562758;Pascaline;DUPONT;W;pascaline.dupont@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1562758;Pascaline;DUPONT;W;pascaline.dupont@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3552069;Francisco;BIEMON;H;francisco.biemon@etudiant.univ-rennes1.fr;member;Club Danse;
+3552069;Francisco;BIEMON;H;francisco.biemon@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3552069;Francisco;BIEMON;H;francisco.biemon@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6690661;Flavie;BEAUPERIN;fille;flavie.beauperin@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6690661;Flavie;BEAUPERIN;fille;flavie.beauperin@etudiant.univ-rennes1.fr;member;Club Apero;
+6690661;Flavie;BEAUPERIN;fille;flavie.beauperin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6555383;Bruce;BEAUFRETON;garçon;bruce.beaufreton@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3806289;Frédérique;MOREAU;W;frederique.moreau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3806289;Frédérique;MOREAU;W;frederique.moreau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3806289;Frédérique;MOREAU;W;frederique.moreau@etudiant.univ-rennes1.fr;member;Club Danse;
+5668218;Gildas;LIBAUD;garçon;gildas.libaud@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+5902875;Olivier;MAHE;M;olivier.mahe@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7035795;Bénédicte;ETOURNEUX;garçon;benedicte.etourneux@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7035795;Bénédicte;ETOURNEUX;garçon;benedicte.etourneux@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7035795;Bénédicte;ETOURNEUX;garçon;benedicte.etourneux@etudiant.univ-rennes1.fr;member;Club Apero;
+1841688;Anne-Yvonne;BITEAU;W;anne-yvonne.biteau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1841688;Anne-Yvonne;BITEAU;W;anne-yvonne.biteau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1841688;Anne-Yvonne;BITEAU;W;anne-yvonne.biteau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+8354927;Jean-Georges;LEPAGE;H;jean-georges.lepage@etudiant.univ-rennes1.fr;member;Club Apero;
+8354927;Jean-Georges;LEPAGE;H;jean-georges.lepage@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+4434849;Gisèle;ANDRAULT;W;gisele.andrault@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4434849;Gisèle;ANDRAULT;W;gisele.andrault@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4434849;Gisèle;ANDRAULT;W;gisele.andrault@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2506071;Anne-Claire;JADEAU;fille;anne-claire.jadeau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2506071;Anne-Claire;JADEAU;fille;anne-claire.jadeau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2506071;Anne-Claire;JADEAU;fille;anne-claire.jadeau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6802351;Muguette;MONNIER;W;muguette.monnier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+15560;Astride;MAROLLEAU;F;astride.marolleau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+15560;Astride;MAROLLEAU;F;astride.marolleau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+2892019;Fatima;PONTONNIER;W;fatima.pontonnier@etudiant.univ-rennes1.fr;member;Club Apero;
+2892019;Fatima;PONTONNIER;W;fatima.pontonnier@etudiant.univ-rennes1.fr;member;Club Danse;
+1663405;Lilianne;BUCHER;F;lilianne.bucher@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1663405;Lilianne;BUCHER;F;lilianne.bucher@etudiant.univ-rennes1.fr;member;Club Apero;
+1710322;Siegfried;GRANDIN;H;siegfried.grandin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2854528;Yannik;MANDIN;garçon;yannik.mandin@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3615984;Corinne;SAVARIT;H;corinne.savarit@etudiant.univ-rennes1.fr;member;Club Apero;
+7970054;Soraya;BRECHET;F;soraya.brechet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1946951;Ladislas;LIBAUD;garçon;ladislas.libaud@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1946951;Ladislas;LIBAUD;garçon;ladislas.libaud@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+1946951;Ladislas;LIBAUD;garçon;ladislas.libaud@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+3228023;Gaël;BOUGET;garçon;gael.bouget@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+3228023;Gaël;BOUGET;garçon;gael.bouget@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+583497;Gaelle;MAHOT;fille;gaelle.mahot@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8826644;Marguerite;RAPICAULT;F;marguerite.rapicault@etudiant.univ-rennes1.fr;member;Club Apero;
+1954763;Emile;RICHER;H;emile.richer@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6804773;Aurélien;HOMER;garçon;aurelien.homer@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6804773;Aurélien;HOMER;garçon;aurelien.homer@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6804773;Aurélien;HOMER;garçon;aurelien.homer@etudiant.univ-rennes1.fr;member;Club Apero;
+9365834;Marie-Charlotte;PRUD HOMME;W;marie-charlotte.prud homme@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9365834;Marie-Charlotte;PRUD HOMME;W;marie-charlotte.prud homme@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+9365834;Marie-Charlotte;PRUD HOMME;W;marie-charlotte.prud homme@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9179052;Georgette;SALLE;garçon;georgette.salle@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9179052;Georgette;SALLE;garçon;georgette.salle@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7777355;Marie-Hélène;BENETEAU;garçon;marie-helene.beneteau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7777355;Marie-Hélène;BENETEAU;garçon;marie-helene.beneteau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2385208;Bertille;MOUILLE;W;bertille.mouille@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+2385208;Bertille;MOUILLE;W;bertille.mouille@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2385208;Bertille;MOUILLE;W;bertille.mouille@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9710923;Yannick;VEAU;F;yannick.veau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9710923;Yannick;VEAU;F;yannick.veau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+8024999;Pierre-Michel;LOISON;M;pierre-michel.loison@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+912013;Bénédicte;CARRE;garçon;benedicte.carre@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+860488;Malou;PIFFARD;fille;malou.piffard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+860488;Malou;PIFFARD;fille;malou.piffard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+860488;Malou;PIFFARD;fille;malou.piffard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1884033;Carine;REVEILLERE;F;carine.reveillere@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1884033;Carine;REVEILLERE;F;carine.reveillere@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+8512871;Adeline;PIRONNEAU;W;adeline.pironneau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1737366;Alvaro;LAMBERT;garçon;alvaro.lambert@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1737366;Alvaro;LAMBERT;garçon;alvaro.lambert@etudiant.univ-rennes1.fr;member;Club Apero;
+7761100;Karl;BOUTET;H;karl.boutet@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+4651705;Raphaële;PROVOST;W;raphaele.provost@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4651705;Raphaële;PROVOST;W;raphaele.provost@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+5499953;Jim;GACHET;garçon;jim.gachet@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5568177;Jean-Guillaume;BORDEAU;H;jean-guillaume.bordeau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3928901;Jluc;DESCHAMPS;H;jluc.deschamps@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3928901;Jluc;DESCHAMPS;H;jluc.deschamps@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9341406;Joachim;PLUMEJEAU;H;joachim.plumejeau@etudiant.univ-rennes1.fr;member;Club Danse;
+9341406;Joachim;PLUMEJEAU;H;joachim.plumejeau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9341406;Joachim;PLUMEJEAU;H;joachim.plumejeau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1674550;Vivian;HACAULT;garçon;vivian.hacault@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9848855;Lysianne;BEILLARD;fille;lysianne.beillard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+7894397;Jean Maurice;REIGNIER;M;jean maurice.reignier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7894397;Jean Maurice;REIGNIER;M;jean maurice.reignier@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7894397;Jean Maurice;REIGNIER;M;jean maurice.reignier@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1347587;Josyane;CHEMINEAU;W;josyane.chemineau@etudiant.univ-rennes1.fr;member;Club Danse;
+1347587;Josyane;CHEMINEAU;W;josyane.chemineau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+1347587;Josyane;CHEMINEAU;W;josyane.chemineau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1143837;Sergio;BOURON;garçon;sergio.bouron@etudiant.univ-rennes1.fr;member;Club Apero;
+1143837;Sergio;BOURON;garçon;sergio.bouron@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+492491;Stéphan;OUVRARD;garçon;stephan.ouvrard@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1003065;Jean-Frédéric;DAVIAUD;M;jean-frederic.daviaud@etudiant.univ-rennes1.fr;member;Club Apero;
+3121003;Marie Line;DESGRE;fille;marie line.desgre@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+3121003;Marie Line;DESGRE;fille;marie line.desgre@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+6723978;Jean Bernard;BLANCHET;M;jean bernard.blanchet@etudiant.univ-rennes1.fr;member;Club Danse;
+6723978;Jean Bernard;BLANCHET;M;jean bernard.blanchet@etudiant.univ-rennes1.fr;member;Club Apero;
+4167770;Annonciade;GODIN;W;annonciade.godin@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5564971;Rachida;COUVREUX;F;rachida.couvreux@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+36833;Octave;HIVERT;M;octave.hivert@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+36833;Octave;HIVERT;M;octave.hivert@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+36833;Octave;HIVERT;M;octave.hivert@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7908933;Stéphane;BAUDOUIN;M;stephane.baudouin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7908933;Stéphane;BAUDOUIN;M;stephane.baudouin@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9790480;Nordine;GRASSET;M;nordine.grasset@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+40525;Renee;HOUDIN;W;renee.houdin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+979747;Suzanne;POUPELIN;fille;suzanne.poupelin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+979747;Suzanne;POUPELIN;fille;suzanne.poupelin@etudiant.univ-rennes1.fr;member;Club Apero;
+7298401;Gwenaelle;LAVENIER;F;gwenaelle.lavenier@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7298401;Gwenaelle;LAVENIER;F;gwenaelle.lavenier@etudiant.univ-rennes1.fr;member;Club Danse;
+127028;Gilda;MENET;fille;gilda.menet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+127028;Gilda;MENET;fille;gilda.menet@etudiant.univ-rennes1.fr;member;Club Apero;
+127028;Gilda;MENET;fille;gilda.menet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3859477;Narcisse;DALIFARD;M;narcisse.dalifard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7875661;Luciano;CHAILLOU;H;luciano.chaillou@etudiant.univ-rennes1.fr;member;Club Danse;
+2400708;Anne-Yvonne;DEHOUX;F;anne-yvonne.dehoux@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4238144;Jean Christophe;CERIZIER;H;jean christophe.cerizier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4238144;Jean Christophe;CERIZIER;H;jean christophe.cerizier@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4238144;Jean Christophe;CERIZIER;H;jean christophe.cerizier@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+276573;Marie-Noelle;AUMOND;W;marie-noelle.aumond@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+276573;Marie-Noelle;AUMOND;W;marie-noelle.aumond@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+276573;Marie-Noelle;AUMOND;W;marie-noelle.aumond@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5884030;Jean Pierre;JEANNEAU;M;jean pierre.jeanneau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+5884030;Jean Pierre;JEANNEAU;M;jean pierre.jeanneau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+7476598;Baptiste;LEFEVRE;H;baptiste.lefevre@etudiant.univ-rennes1.fr;member;Club Apero;
+7062366;Jeremie;RICOU;H;jeremie.ricou@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3662800;Ghislène;ALLAIRE;fille;ghislene.allaire@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3662800;Ghislène;ALLAIRE;fille;ghislene.allaire@etudiant.univ-rennes1.fr;member;Club Apero;
+9515545;Claudy;GABORY;F;claudy.gabory@etudiant.univ-rennes1.fr;member;Club Danse;
+9515545;Claudy;GABORY;F;claudy.gabory@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9515545;Claudy;GABORY;F;claudy.gabory@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+355898;Patricia;GODICHEAU;M;patricia.godicheau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3355127;Patric;REVAULT;M;patric.revault@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3355127;Patric;REVAULT;M;patric.revault@etudiant.univ-rennes1.fr;member;Club Danse;
+7601491;Vincenza;HOUDAYER;F;vincenza.houdayer@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7601491;Vincenza;HOUDAYER;F;vincenza.houdayer@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7601491;Vincenza;HOUDAYER;F;vincenza.houdayer@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9777115;Solange;CHEVALIER;F;solange.chevalier@etudiant.univ-rennes1.fr;member;Club Danse;
+9777115;Solange;CHEVALIER;F;solange.chevalier@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8747513;Jean André;BELOUIN;garçon;jean andre.belouin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+8747513;Jean André;BELOUIN;garçon;jean andre.belouin@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1644484;Vanessa;OGEREAU;W;vanessa.ogereau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1647802;Marianne;BESSON;W;marianne.besson@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+5234188;Paul-Henri;LAILLER;garçon;paul-henri.lailler@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5234188;Paul-Henri;LAILLER;garçon;paul-henri.lailler@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4816761;Mickaël;BROUSSEAU;H;mickael.brousseau@etudiant.univ-rennes1.fr;member;Club Apero;
+5964769;Joseph;LAIGLE;W;joseph.laigle@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+5964769;Joseph;LAIGLE;W;joseph.laigle@etudiant.univ-rennes1.fr;member;Club Danse;
+5107261;Gina;BOLTEAU;fille;gina.bolteau@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+5107261;Gina;BOLTEAU;fille;gina.bolteau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+5107261;Gina;BOLTEAU;fille;gina.bolteau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6787143;Steve;BONTEMPS;M;steve.bontemps@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+906048;Hélène;LEMARCHAND;fille;helene.lemarchand@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4196210;Michelle;LEVEQUE;garçon;michelle.leveque@etudiant.univ-rennes1.fr;member;Club Danse;
+4196210;Michelle;LEVEQUE;garçon;michelle.leveque@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7370710;Jean-Loup;RORTEAU;garçon;jean-loup.rorteau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7528141;Mary;SALE;W;mary.sale@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7528141;Mary;SALE;W;mary.sale@etudiant.univ-rennes1.fr;member;Club Apero;
+3841145;Anne Sophie;BARDET;F;anne sophie.bardet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3841145;Anne Sophie;BARDET;F;anne sophie.bardet@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4219309;Rebecca;PELTIER;F;rebecca.peltier@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+3528;Ericka;GUYOMARD;W;ericka.guyomard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3528;Ericka;GUYOMARD;W;ericka.guyomard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3528;Ericka;GUYOMARD;W;ericka.guyomard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9030568;Janick;VINCONNEAU;garçon;janick.vinconneau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9030568;Janick;VINCONNEAU;garçon;janick.vinconneau@etudiant.univ-rennes1.fr;member;Club Apero;
+7808312;Valentine;GESLIN;F;valentine.geslin@etudiant.univ-rennes1.fr;member;Club Apero;
+7808312;Valentine;GESLIN;F;valentine.geslin@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9098198;Abdallah;FOUIN;garçon;abdallah.fouin@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9098198;Abdallah;FOUIN;garçon;abdallah.fouin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9098198;Abdallah;FOUIN;garçon;abdallah.fouin@etudiant.univ-rennes1.fr;member;Club Danse;
+5179638;Marine;PERON;W;marine.peron@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+5179638;Marine;PERON;W;marine.peron@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5438886;Jamila;DALIBON;F;jamila.dalibon@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+5438886;Jamila;DALIBON;F;jamila.dalibon@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6971046;Lydie;GUEMARD;H;lydie.guemard@etudiant.univ-rennes1.fr;member;Club Apero;
+6971046;Lydie;GUEMARD;H;lydie.guemard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6971046;Lydie;GUEMARD;H;lydie.guemard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1079682;Remy;HOUDU;H;remy.houdu@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1079682;Remy;HOUDU;H;remy.houdu@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1079682;Remy;HOUDU;H;remy.houdu@etudiant.univ-rennes1.fr;member;Club Apero;
+8725005;Rolland;LIEVRE;H;rolland.lievre@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8725005;Rolland;LIEVRE;H;rolland.lievre@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8725005;Rolland;LIEVRE;H;rolland.lievre@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3509867;Jeannine;PAILLAT;W;jeannine.paillat@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3509867;Jeannine;PAILLAT;W;jeannine.paillat@etudiant.univ-rennes1.fr;member;Club Apero;
+3509867;Jeannine;PAILLAT;W;jeannine.paillat@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6396437;Alex;SAULNIER;H;alex.saulnier@etudiant.univ-rennes1.fr;member;Club Apero;
+6396437;Alex;SAULNIER;H;alex.saulnier@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6303380;Hamed;FOUGERE;H;hamed.fougere@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6303380;Hamed;FOUGERE;H;hamed.fougere@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6303380;Hamed;FOUGERE;H;hamed.fougere@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1866526;Jean-Raymond;COIGNARD;garçon;jean-raymond.coignard@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1866526;Jean-Raymond;COIGNARD;garçon;jean-raymond.coignard@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+171568;Reynald;HOGNON;garçon;reynald.hognon@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+2046596;Anabelle;BOUYER;F;anabelle.bouyer@etudiant.univ-rennes1.fr;member;Club Apero;
+2046596;Anabelle;BOUYER;F;anabelle.bouyer@etudiant.univ-rennes1.fr;member;Club Danse;
+2046596;Anabelle;BOUYER;F;anabelle.bouyer@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5132626;Joao;GOURE;garçon;joao.goure@etudiant.univ-rennes1.fr;member;Club Apero;
+5132626;Joao;GOURE;garçon;joao.goure@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+856194;Jean-Yvon;LEVEQUE;garçon;jean-yvon.leveque@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+6768249;Dolores;BOURDEAU;F;dolores.bourdeau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6768249;Dolores;BOURDEAU;F;dolores.bourdeau@etudiant.univ-rennes1.fr;member;Club Danse;
+5208398;Mikaël;GUIGNON;H;mikael.guignon@etudiant.univ-rennes1.fr;member;Club Danse;
+5208398;Mikaël;GUIGNON;H;mikael.guignon@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5208398;Mikaël;GUIGNON;H;mikael.guignon@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1468941;Najat;BERTHAUD;F;najat.berthaud@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1468941;Najat;BERTHAUD;F;najat.berthaud@etudiant.univ-rennes1.fr;member;Club Danse;
+1468941;Najat;BERTHAUD;F;najat.berthaud@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2299333;Alix;THIERY;garçon;alix.thiery@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2299333;Alix;THIERY;garçon;alix.thiery@etudiant.univ-rennes1.fr;member;Club Apero;
+2116067;Yoann;GAUDICHEAU;M;yoann.gaudicheau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2116067;Yoann;GAUDICHEAU;M;yoann.gaudicheau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2116067;Yoann;GAUDICHEAU;M;yoann.gaudicheau@etudiant.univ-rennes1.fr;member;Club Danse;
+7048766;François-Marie;RABOIN;M;francois-marie.raboin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7048766;François-Marie;RABOIN;M;francois-marie.raboin@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7048766;François-Marie;RABOIN;M;francois-marie.raboin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4097932;Cathy;JUBEAU;F;cathy.jubeau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4097932;Cathy;JUBEAU;F;cathy.jubeau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4097932;Cathy;JUBEAU;F;cathy.jubeau@etudiant.univ-rennes1.fr;member;Club Danse;
+2906447;Hélène;LAILLER;H;helene.lailler@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8264536;Jerome;METIVIER;H;jerome.metivier@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+8264536;Jerome;METIVIER;H;jerome.metivier@etudiant.univ-rennes1.fr;member;Club Danse;
+8264536;Jerome;METIVIER;H;jerome.metivier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3619521;Théophile;PROUTIERE;H;theophile.proutiere@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3619521;Théophile;PROUTIERE;H;theophile.proutiere@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1405566;Saliha;DELHOMMEAU;W;saliha.delhommeau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9645399;Véronique;BOUHIRON;F;veronique.bouhiron@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9645399;Véronique;BOUHIRON;F;veronique.bouhiron@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9645399;Véronique;BOUHIRON;F;veronique.bouhiron@etudiant.univ-rennes1.fr;member;Club Apero;
+6439314;Suzanne;GASTE;F;suzanne.gaste@etudiant.univ-rennes1.fr;member;Club Danse;
+5548333;Vivianne;RABOUIN;W;vivianne.rabouin@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+5548333;Vivianne;RABOUIN;W;vivianne.rabouin@etudiant.univ-rennes1.fr;member;Club Danse;
+8851393;Annie;ROULLIER;fille;annie.roullier@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8851393;Annie;ROULLIER;fille;annie.roullier@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+549362;Joanny;SUBILEAU;H;joanny.subileau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+549362;Joanny;SUBILEAU;H;joanny.subileau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+549362;Joanny;SUBILEAU;H;joanny.subileau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+4638846;Jean Baptiste;ROINARD;garçon;jean baptiste.roinard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+2838280;Philomène;BIGEARD;fille;philomene.bigeard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6316333;Nancy;HULLIN;fille;nancy.hullin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+6316333;Nancy;HULLIN;fille;nancy.hullin@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+7278656;Myriam;PERCEVAULT;fille;myriam.percevault@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+6000154;Jean-Camille;SAVARIT;M;jean-camille.savarit@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6000154;Jean-Camille;SAVARIT;M;jean-camille.savarit@etudiant.univ-rennes1.fr;member;Club Apero;
+6172402;Humbert;BOISIAUD;garçon;humbert.boisiaud@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+6172402;Humbert;BOISIAUD;garçon;humbert.boisiaud@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+6172402;Humbert;BOISIAUD;garçon;humbert.boisiaud@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3029679;Cendrine;DUCHENE;fille;cendrine.duchene@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1533193;Joachim;JUBERT;H;joachim.jubert@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1533193;Joachim;JUBERT;H;joachim.jubert@etudiant.univ-rennes1.fr;member;Club Apero;
+1533193;Joachim;JUBERT;H;joachim.jubert@etudiant.univ-rennes1.fr;member;Club Danse;
+3744587;Mickaël;LIZEE;H;mickael.lizee@etudiant.univ-rennes1.fr;member;Club Apero;
+3744587;Mickaël;LIZEE;H;mickael.lizee@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3744587;Mickaël;LIZEE;H;mickael.lizee@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+5320916;Alison;GOUBAULT;fille;alison.goubault@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1997966;Marylène;CHAUVIERE;fille;marylene.chauviere@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1997966;Marylène;CHAUVIERE;fille;marylene.chauviere@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1997966;Marylène;CHAUVIERE;fille;marylene.chauviere@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1057577;Janine;LEBLANC;W;janine.leblanc@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+1057577;Janine;LEBLANC;W;janine.leblanc@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1057577;Janine;LEBLANC;W;janine.leblanc@etudiant.univ-rennes1.fr;member;Club Danse;
+4633219;Francisca;ROYER;W;francisca.royer@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1966837;Stéphanie;RICHARD;H;stephanie.richard@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8106108;Madeleine;PREZELIN;W;madeleine.prezelin@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1129949;Monika;CHRETIEN;F;monika.chretien@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1129949;Monika;CHRETIEN;F;monika.chretien@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+1129949;Monika;CHRETIEN;F;monika.chretien@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3242801;Marie Anne;MICHEL;F;marie anne.michel@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3242801;Marie Anne;MICHEL;F;marie anne.michel@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3242801;Marie Anne;MICHEL;F;marie anne.michel@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3344822;Arlette;RENIER;W;arlette.renier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9169627;Mostafa;RIVAULT;H;mostafa.rivault@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+9169627;Mostafa;RIVAULT;H;mostafa.rivault@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9169627;Mostafa;RIVAULT;H;mostafa.rivault@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+3900976;Amel;ROUMY;W;amel.roumy@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+3900976;Amel;ROUMY;W;amel.roumy@etudiant.univ-rennes1.fr;member;Club Apero;
+9929295;Anicette;LE GAL;F;anicette.le gal@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+9929295;Anicette;LE GAL;F;anicette.le gal@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+9929295;Anicette;LE GAL;F;anicette.le gal@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3733132;Alcide;DEHOUX;H;alcide.dehoux@etudiant.univ-rennes1.fr;member;Club Danse;
+473899;Marie-Pierre;ROBICHON;M;marie-pierre.robichon@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9340961;Marie-Aline;NAULET;F;marie-aline.naulet@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9340961;Marie-Aline;NAULET;F;marie-aline.naulet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1115480;Christine;ALLORY;M;christine.allory@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8699889;Marceline;CHEVROLLIER;F;marceline.chevrollier@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+8699889;Marceline;CHEVROLLIER;F;marceline.chevrollier@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8699889;Marceline;CHEVROLLIER;F;marceline.chevrollier@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+4240872;Patricia;LHOMMEAU;F;patricia.lhommeau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4240872;Patricia;LHOMMEAU;F;patricia.lhommeau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+507855;Danielle;PRUDHOMME;M;danielle.prudhomme@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+801225;Jean Charles;CHEVRE;M;jean charles.chevre@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+801225;Jean Charles;CHEVRE;M;jean charles.chevre@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9401226;Pilar;GUICHARD;W;pilar.guichard@etudiant.univ-rennes1.fr;member;Club Danse;
+4776029;Héloïse;LEMASSON;fille;heloise.lemasson@etudiant.univ-rennes1.fr;member;Club Danse;
+5499132;Dominique;RONCIER;garçon;dominique.roncier@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+268237;Annonciade;BRU;W;annonciade.bru@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+268237;Annonciade;BRU;W;annonciade.bru@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6897722;Cécile;JEANNEAU;M;cecile.jeanneau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9956934;Félicie;ALAIN;F;felicie.alain@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+9956934;Félicie;ALAIN;F;felicie.alain@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+3428204;Jean-Vincent;PINIER;H;jean-vincent.pinier@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+3428204;Jean-Vincent;PINIER;H;jean-vincent.pinier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+883663;Anne Sophie;BARRE;F;anne sophie.barre@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+883663;Anne Sophie;BARRE;F;anne sophie.barre@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+103153;Annette;BREBION;W;annette.brebion@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2077485;Joannès;ESNAULT;garçon;joannes.esnault@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2077485;Joannès;ESNAULT;garçon;joannes.esnault@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+2077485;Joannès;ESNAULT;garçon;joannes.esnault@etudiant.univ-rennes1.fr;member;Club Danse;
+9782076;Toussaint;BILLARD;M;toussaint.billard@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7199569;France;LEON;M;france.leon@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7199569;France;LEON;M;france.leon@etudiant.univ-rennes1.fr;member;Club Danse;
+7199569;France;LEON;M;france.leon@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+108966;Noëlle;CHOLEAU;W;noelle.choleau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+108966;Noëlle;CHOLEAU;W;noelle.choleau@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+7664126;Colombe;LORENDEAU;F;colombe.lorendeau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+7664126;Colombe;LORENDEAU;F;colombe.lorendeau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7962855;Marie-Rose;JOLY;fille;marie-rose.joly@etudiant.univ-rennes1.fr;member;Club Apero;
+7962855;Marie-Rose;JOLY;fille;marie-rose.joly@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7962855;Marie-Rose;JOLY;fille;marie-rose.joly@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+4881043;Emile;CLENET;M;emile.clenet@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4881043;Emile;CLENET;M;emile.clenet@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+2770248;Graziella;VIOLLEAU;W;graziella.violleau@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+2770248;Graziella;VIOLLEAU;W;graziella.violleau@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+2770248;Graziella;VIOLLEAU;W;graziella.violleau@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+243144;Baptiste;CLENET;M;baptiste.clenet@etudiant.univ-rennes1.fr;member;Club Apero;
+243144;Baptiste;CLENET;M;baptiste.clenet@etudiant.univ-rennes1.fr;member;Club Roll&Draw; de projets étudiants développant applications, jeux et tous les types de jeux de société.
+243144;Baptiste;CLENET;M;baptiste.clenet@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6107913;Marie-Françoise;GAUTIER;W;marie-francoise.gautier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6107913;Marie-Françoise;GAUTIER;W;marie-francoise.gautier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+8793782;Manon;LUSSEAU;fille;manon.lusseau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+8793782;Manon;LUSSEAU;fille;manon.lusseau@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7043760;Jean-Henri;GRASSET;garçon;jean-henri.grasset@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+5806187;Philip;POITOU;garçon;philip.poitou@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+1074376;Josie;GRELET;F;josie.grelet@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1074376;Josie;GRELET;F;josie.grelet@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+6811689;Jean-Alain;CHOLEAU;H;jean-alain.choleau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+5222144;Laurent;CUSSONNEAU;M;laurent.cussonneau@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+9816486;Irénée;PAPIN;M;irenee.papin@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+9816486;Irénée;PAPIN;M;irenee.papin@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+8386950;Martina;LEGEAI;F;martina.legeai@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8386950;Martina;LEGEAI;F;martina.legeai@etudiant.univ-rennes1.fr;member;Club Danse;
+8386950;Martina;LEGEAI;F;martina.legeai@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+2755407;Taoufik;LEBLOND;M;taoufik.leblond@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+2755407;Taoufik;LEBLOND;M;taoufik.leblond@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+2755407;Taoufik;LEBLOND;M;taoufik.leblond@etudiant.univ-rennes1.fr;member;Club Apero;
+9280128;Cathy;POISSON;garçon;cathy.poisson@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+9280128;Cathy;POISSON;garçon;cathy.poisson@etudiant.univ-rennes1.fr;member;Club Danse;
+3564997;Herve;BOUCHARD;H;herve.bouchard@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1804452;Etienne;BAHUAUD;M;etienne.bahuaud@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+1804452;Etienne;BAHUAUD;M;etienne.bahuaud@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+5736205;Jean-Yves;CONGNARD;H;jean-yves.congnard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+7322563;Yvonnick;VIGNERON;M;yvonnick.vigneron@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+7322563;Yvonnick;VIGNERON;M;yvonnick.vigneron@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+2053184;Jocelyn;BIOTEAU;garçon;jocelyn.bioteau@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+2053184;Jocelyn;BIOTEAU;garçon;jocelyn.bioteau@etudiant.univ-rennes1.fr;member;Club Danse;
+6092537;Mostafa;PAILLAT;H;mostafa.paillat@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+6092537;Mostafa;PAILLAT;H;mostafa.paillat@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+6092537;Mostafa;PAILLAT;H;mostafa.paillat@etudiant.univ-rennes1.fr;member;Club Apero;
+9565886;Marie-Jane;GAUTIER;F;marie-jane.gautier@etudiant.univ-rennes1.fr;member;BDE;représente les élèves de l'ESIR auprès de la direction et coordonne la vie associative sur le campus
+1407205;Francine;ROINE;M;francine.roine@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+8624912;Ange;BOURREAU;garçon;ange.bourreau@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1322844;Jean-Albert;GUICHARD;H;jean-albert.guichard@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1322844;Jean-Albert;GUICHARD;H;jean-albert.guichard@etudiant.univ-rennes1.fr;member;Club Danse;
+1322844;Jean-Albert;GUICHARD;H;jean-albert.guichard@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9065722;Clément;DIDIER;H;clement.didier@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+9065722;Clément;DIDIER;H;clement.didier@etudiant.univ-rennes1.fr;member;Club Conférence;club qui organise des conférences 
+9065722;Clément;DIDIER;H;clement.didier@etudiant.univ-rennes1.fr;member;Club Danse;
+715601;Rénald;BELLION;H;renald.bellion@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+715601;Rénald;BELLION;H;renald.bellion@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+8250155;Charlène;CONSTANTIN;fille;charlene.constantin@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+1590418;Mariana;AUVINET;F;mariana.auvinet@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+730483;Bruna;HEMERY;fille;bruna.hemery@etudiant.univ-rennes1.fr;member;Club japonnais Shiro Kitsune; club d'apprentissage de la langue et de la culture japonaise.
+730483;Bruna;HEMERY;fille;bruna.hemery@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+3484804;Marielle;GRIVAULT;W;marielle.grivault@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+3484804;Marielle;GRIVAULT;W;marielle.grivault@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+7099660;Amédée;ANTIER;garçon;amedee.antier@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
+7099660;Amédée;ANTIER;garçon;amedee.antier@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+7099660;Amédée;ANTIER;garçon;amedee.antier@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+1642443;Marie Jose;LEGRAND;F;marie jose.legrand@etudiant.univ-rennes1.fr;member;BDA;l’asso qui s’occupe de tout ce qui est artistique sur le campus. Ça passe par l’organisation d’évènements tout au long de l’année, la gestion de Clubs artistes dans de nombreux domaines différents et la mise en place d’une billetterie en ligne permettant d’avoir des tarifs préférentiels dans des salles de spectacle parisiennes.
+1642443;Marie Jose;LEGRAND;F;marie jose.legrand@etudiant.univ-rennes1.fr;member;Club Apero;
+7456381;Germinal;DESGRE;M;germinal.desgre@etudiant.univ-rennes1.fr;member;Club ESIR Esport;club de jeux vidéos avec des équipes Esiriennes qui jouent lors de challenges.
+4184809;Victoire;HARDOU;fille;victoire.hardou@etudiant.univ-rennes1.fr;member;Club Kulture;club d'échanges autour des diverses cultures étrangères représentées à l'ESIR.
+4184809;Victoire;HARDOU;fille;victoire.hardou@etudiant.univ-rennes1.fr;member;Club Musique;club où les étudiants qui se réunissent avec leur instrument, ou non, afin de jouer de la musique.
+4184809;Victoire;HARDOU;fille;victoire.hardou@etudiant.univ-rennes1.fr;member;EsirBEP;association venant en aide aux élèves à besoins éducatifs particuliers
