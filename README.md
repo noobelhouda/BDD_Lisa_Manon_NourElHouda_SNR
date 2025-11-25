@@ -141,7 +141,8 @@ The ER model of the Skisati database is shown in the following picture:
 > ```
 > 
 > >**[TODO]**
-> >Ask your supervisor to validate the schema. And save it in the folder.
+> ><img width="641" height="631" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/7f6f9e48-7f74-4075-8736-839cb25e79f6" />
+
 
 
 ## The DB module
