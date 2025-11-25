@@ -16,16 +16,31 @@ def load_config():
     A dictionary.
         The application configuration.
     """
-    # The dictionary to return.
+     # The dictionary to return.
     config = {}
 
-    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
+    # On lit le fichier ./config/config (chemin utilisé dans les tests)
+    with open("./config/config", mode="r", encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter=",")
+        for row in reader:
+            # Ignorer les lignes vides
+            if not row:
+                continue
 
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+            key = row[0].strip()
 
-    ##############################################################################
+            # Ignorer les commentaires ou clés vides
+            if not key or key.startswith("#"):
+                continue
 
+            # Si pas de valeur, on met une chaîne vide
+            value = ""
+            if len(row) > 1:
+                value = row[1].strip()
+
+            config[key] = value
+
+    return config
 
 def load_messages_bundle(messages_bundle_file):
     """Loads the messages bundle from the given file into a dictionary.
@@ -49,12 +64,26 @@ def load_messages_bundle(messages_bundle_file):
     # The dictionary to return
     messages_bundle = {}
     
-    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
+    with open(messages_bundle_file, mode="r", encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter=",")
+        for row in reader:
+            # Ignorer les lignes vides
+            if not row:
+                continue
 
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+            key = row[0].strip()
 
-    ##############################################################################
+            # Ignorer les commentaires ou clés vides
+            if not key or key.startswith("#"):
+                continue
+
+            value = ""
+            if len(row) > 1:
+                value = row[1].strip()
+
+            messages_bundle[key] = value
+
+    return messages_bundle
 
 def load_check_image():
     """Loads the image used to indicate that a field contains a correct value.
@@ -222,13 +251,7 @@ def username_ok(username):
         True if the username meets the validity criteria, False otherwise.
     """
 
-    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
-
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
-    
-    ##############################################################################
-
+    return len(username) >= 5
 def password_ok(password):
     """Returns whether the password meets the validity criteria.
 
@@ -249,13 +272,15 @@ def password_ok(password):
         True if the password meets the validity criteria, False otherwise.
     """
 
-    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
+    if len(password) < 5:
+        return False
 
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    has_upper = any(c.isupper() for c in password)
+    has_digit = any(c.isdigit() for c in password)
+    has_symbol = any(c in "@!#$" for c in password)
 
-    ##############################################################################
-
+    return has_upper and has_digit and has_symbol
+    
 # When we execute this script, tests are run on the function implemented in this 
 # module.
 if __name__ == "__main__":
