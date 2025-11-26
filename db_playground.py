@@ -142,7 +142,7 @@ if __name__ == "__main__":
     cursor = conn.cursor()
 
     insert_clara()
-    
+    conn.commit()  # ajout de commit pour ajouter clara
     # Closes the connection to the database
     cursor.close()
     conn.close()

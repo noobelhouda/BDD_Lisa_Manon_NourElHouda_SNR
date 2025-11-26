@@ -9,8 +9,10 @@ statement if __name__ == "__main__": that you find at the bottom of the file.
 
 import sqlite3
 import utils
+import os
 
 def create_database(conn, cursor):
+
     """Creates the SkisatiResa database
 
     Parameters
