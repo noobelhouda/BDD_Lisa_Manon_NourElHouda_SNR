@@ -187,10 +187,13 @@ The code to create the database is written in function create_database.
 >
 > - Verify that the file ./data/skisati.db exists.
 > - By opening the file ./data/skisati.db with DB Browser for SQLite, verify that the table Login exists in the database. 
-> 
-> Pour vérifier que le fichier ./data/skisati.db existe, nous avons lancé exécuté le fichier db.py qui crée la base de donnée avec la table login (il fait appel à la fonction create_database()).
+>
+**Réponse Question 3**
+>```
+>  Pour vérifier que le fichier ./data/skisati.db existe, nous avons lancé exécuté le fichier db.py qui crée la base de donnée avec la table login (il fait appel à la fonction create_database()).
 > Le fichier skisati.db qui a bien été créé dans le dossier data. Nous avons installé SQLite et SQLite viewer pour visualiser le contenu de la base créée.
 > En ouvrant skisati.db avec SQLite, nous vérifions que la table Login existe dans la base comme on peut le voir dans la photo ci dessous.
+>
 <img width="1017" height="699" alt="image" src="https://github.com/user-attachments/assets/8b42a594-3967-45e7-93e4-273d6ba2c5a1" />
 
 **QUESTION 4**
