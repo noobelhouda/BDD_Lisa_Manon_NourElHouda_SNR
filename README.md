@@ -274,6 +274,12 @@ __________________________________________________
 > Use the function add_email_address to add an email address of a non-existing student. What happens?
 > >**[TODO]**
 > >Write your explication below
+> >
+> >Dans la table EmailAddress, la colonne stud_number est une clé étrangère qui doit pointer vers un étudiant existant dans la table Student.
+> >Comme l’étudiant n’existe pas, la contrainte de clé étrangère est violée et l’insertion est refusée.
+> >C'est pour ça nous avons eu comme erreur : An integrity error occurred while inserting the email address: FOREIGN KEY constraint failed
+<img width="969" height="379" alt="image" src="https://github.com/user-attachments/assets/656fcb43-f2f1-4141-b79f-dcbe94ada00d" />
+
 
 ```
 Explications QS9
