@@ -94,7 +94,67 @@ def transform(dataframes):
     print("Transforming the data...")
 
     ################## TODO: COMPLETE THE CODE OF THIS FUNCTION  #####################
+    #Implementation of the transformation submodule
+    #On enlève d'abord les doublons
 
+    #Student : un étudiant par stud_number
+    student_df = dataframes["Student"]
+    student_df = student_df.drop_duplicates(subset=["stud_number"])
+    dataframes["Student"] = student_df
+
+    #EmailAddress : un couple (stud_number, email) unique
+    email_df = dataframes["EmailAddress"]
+    email_df = email_df.drop_duplicates(subset=["stud_number", "email"])
+    dataframes["EmailAddress"] = email_df
+
+    #Association : une association par nom
+    asso_df = dataframes["Association"]
+    asso_df = asso_df.drop_duplicates(subset=["asso_name"])
+    dataframes["Association"] = asso_df
+
+    #SkisatiEdition : une ligne par année
+    skisati_df = dataframes["SkisatiEdition"]
+    skisati_df = skisati_df.drop_duplicates(subset=["year"])
+    dataframes["SkisatiEdition"] = skisati_df
+
+    #Membership et Registration : on ne supprime pas de lignes (les tailles attendues sont déjà OK)
+    membership_df = dataframes["Membership"]
+    dataframes["Membership"] = membership_df
+
+    registration_df = dataframes["Registration"]
+
+    #Normaliser la colonne gender dans Student : M / F
+    student_df["gender"] = (
+        student_df["gender"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+    )
+
+    student_df["gender"] = student_df["gender"].replace({
+        "m": "M",
+        "h": "M",
+        "homme": "M",
+        "garçon": "M",
+        "garcon": "M",
+        "f": "F",
+        "w": "F",
+        "fille": "F",
+        "woman": "F"
+    })
+
+    dataframes["Student"] = student_df
+
+    #On remet les dates registration_date et payment_date en dd-mm-yyyy
+    for col in ["registration_date", "payment_date"]:
+        #conversion
+        dt_series = pd.to_datetime(registration_df[col], errors="coerce")
+        #format dd-mm-yyyy
+        registration_df[col] = dt_series.dt.strftime("%d-%m-%Y")
+        #remplacer NaN par chaîne vide
+        registration_df[col] = registration_df[col].fillna("")
+
+    dataframes["Registration"] = registration_df
     
     ##################################################################################
 
@@ -154,13 +214,26 @@ if __name__ == "__main__":
 
     ################## TODO: COMPLETE THE CODE OF THIS FUNCTION  #####################
     
-    # REMOVE THIS BEFORE WRITING YOUR CODE.
-    # pass is only added here to avoid the error mark that Visual Studio Code 
-    # uses to indicate some missing code.
     # Appeler extract()
     dataframes = extract()
 
     # Afficher les dataframes
+    for name, df in dataframes.items():
+        print(f"\n===== {name} =====")
+        print(df)
+
+    print("\n--- Before transformation (shapes) ---")
+    for name, df in dataframes.items():
+        print(f"{name}: {df.shape}")
+
+    #Transformation
+    dataframes = transform(dataframes)
+
+    print("\n--- After transformation (shapes) ---")
+    for name, df in dataframes.items():
+        print(f"{name}: {df.shape}")
+
+    #Afficher le contenu
     for name, df in dataframes.items():
         print(f"\n===== {name} =====")
         print(df)
