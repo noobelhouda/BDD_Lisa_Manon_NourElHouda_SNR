@@ -148,6 +148,8 @@ if __name__ == "__main__":
     cursor = conn.cursor()
 
     insert_clara()
+    print("\nTest : ajout d'un email pour un étudiant inexistant")
+    add_email_address(2, "test@student.com", cursor)
     conn.commit()  # ajout de commit pour ajouter clara
     # Closes the connection to the database
     cursor.close()
