@@ -73,8 +73,61 @@ def create_database(conn, cursor):
         ''')
 
        #####TODO: COMPLETE THE CODE HERE TO CREATE THE OTHER TABLES ####
-       
-        
+       # table etudiant : 
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS Student (
+                stud_number INTEGER PRIMARY KEY,
+                first_name TEXT,
+                last_name TEXT,
+                gender TEXT
+            );
+        """)
+        # table EmailAddress : 
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS EmailAddress (
+                email TEXT PRIMARY KEY,
+                stud_number INTEGER,
+                FOREIGN KEY (stud_number) REFERENCES Student(stud_number)
+            );
+        """)
+        # table Skisatiedition
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS SkisatiEdition (
+                year TEXT PRIMARY KEY,
+                registration_fee REAL
+            );
+        """)
+        # table registration
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS Registration (
+                registration_date TEXT,
+                payment_date TEXT,
+                stud_number INTEGER,
+                year TEXT,
+                PRIMARY KEY (stud_number, year),
+                FOREIGN KEY (stud_number) REFERENCES Student(stud_number),
+                FOREIGN KEY (year) REFERENCES SkisatiEdition(year)
+            );
+        """)
+        # table Association
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS Association (
+                asso_name TEXT PRIMARY KEY,
+                asso_desc TEXT
+            );
+        """)
+        # table membership
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS membership (
+                stud_role TEXT,
+                stud_number INTEGER,
+                asso_name TEXT,
+                PRIMARY KEY (stud_number, asso_name),
+                FOREIGN KEY (stud_number) REFERENCES Student(stud_number),
+                FOREIGN KEY (asso_name) REFERENCES Association(asso_name)
+            );
+        """)
+
         
        ###################################################################
         
