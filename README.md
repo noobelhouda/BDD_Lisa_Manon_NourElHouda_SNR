@@ -253,7 +253,12 @@ After the statement __name__ == "__main__" you'll find the instructions that are
 ```
 Explications QS7
 ______________________________________________________
-________________________________________________________
+
+Student number already taken: UNIQUE constraint failed: Student.stud_number
+
+On a deja crée clara avec son student number unique donc on ne peut pas en re crée une.
+La gestion de cas d'erreur marche bien, et donc la clé primaire fait correctement sont travail.
+__________________________________________________
 ```
 
 **QUESTION 8**
