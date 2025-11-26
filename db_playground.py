@@ -85,9 +85,15 @@ def add_email_address(stud_number, email_address, cursor):
 
     # We add the membership information on the student.
     try:
-        # TODO -- Use a parameterized query to add the email address to the database ##########
-        # REMOVE pass and write your code!
-        pass
+        # TODO -- Use a parameterized query to add the email address to the database #
+        # On utilise une requête paramétrée pour ajouter l’email dans la table EmailAddress.
+        #Si l’email existe déjà ou si le numéro étudiant est invalide, une IntegrityError est levee.
+        #Sinon, l’insertion fonctionne.#
+        insert_query = "INSERT INTO EmailAddress(email, stud_number) VALUES (?, ?)" 
+        query_values = (email_address, stud_number)
+
+        cursor.execute(insert_query, query_values)
+
 
         ################################################################################################
     except sqlite3.IntegrityError as error:
