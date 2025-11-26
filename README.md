@@ -275,17 +275,19 @@ __________________________________________________
 > >**[TODO]**
 > >Write your explication below
 > >
-> >Dans la table EmailAddress, la colonne stud_number est une clé étrangère qui doit pointer vers un étudiant existant dans la table Student.
-> >Comme l’étudiant n’existe pas, la contrainte de clé étrangère est violée et l’insertion est refusée.
-> >C'est pour ça nous avons eu comme erreur : An integrity error occurred while inserting the email address: FOREIGN KEY constraint failed
-<img width="969" height="379" alt="image" src="https://github.com/user-attachments/assets/656fcb43-f2f1-4141-b79f-dcbe94ada00d" />
+
 
 
 ```
 Explications QS9
 ______________________________________________________
-________________________________________________________
+Dans la table EmailAddress, la colonne stud_number est une clé étrangère qui doit pointer vers un étudiant existant dans la table Student.
+Comme l’étudiant n’existe pas, la contrainte de clé étrangère est violée et l’insertion est refusée.
+C'est pour ça nous avons eu comme erreur : An integrity error occurred while inserting the email address: FOREIGN KEY constraint failed
+
+________________________________________________
 ```
+<img width="969" height="379" alt="image" src="https://github.com/user-attachments/assets/656fcb43-f2f1-4141-b79f-dcbe94ada00d" />
 
 Don't hesitate to play with the code by running other queries on the database. When you're done, you might want to empty your database before importing the data from the spreadsheets, which is the goal of the ETL module. Use the DB Browser for SQLite to delete all the values that you added in this section. Remember to click on the button Write Changes at the end. 
 
