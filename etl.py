@@ -42,7 +42,37 @@ def extract():
 
     ################## TODO: COMPLETE THE CODE OF THIS FUNCTION  #####################
 
-    
+    # Lire les CSV
+    registrations_df = pd.read_csv("./data/student_registrations.csv", delimiter=";")
+    memberships_df   = pd.read_csv("./data/student_memberships.csv", delimiter=";")
+
+    #Construire les dataframes
+    students_from_reg = registrations_df[["stud_number", "first_name", "last_name", "gender"]]
+    students_from_mem = memberships_df[["stud_number", "first_name", "last_name", "gender"]]
+    student_df = pd.concat([students_from_reg, students_from_mem], ignore_index=True)
+
+    emails_from_reg = registrations_df[["stud_number", "email"]]
+    emails_from_mem = memberships_df[["stud_number", "email"]]
+    email_df = pd.concat([emails_from_reg, emails_from_mem], ignore_index=True)
+
+    association_df = memberships_df[["asso_name", "asso_desc"]]
+    membership_df  = memberships_df[["stud_number", "asso_name", "stud_role"]]
+
+    skisati_df = registrations_df[["year", "registration_fee"]]
+    registration_df = registrations_df[
+        ["stud_number", "year", "registration_date", "payment_date", "registration_fee"]
+    ]
+
+    # Remplir le dictionnaire
+    dataframes = {
+        "Student": student_df,
+        "EmailAddress": email_df,
+        "Association": association_df,
+        "Membership": membership_df,
+        "SkisatiEdition": skisati_df,
+        "Registration": registration_df,
+    }
+
     ##################################################################################
 
     # Return the dataframe collection.
@@ -127,7 +157,13 @@ if __name__ == "__main__":
     # REMOVE THIS BEFORE WRITING YOUR CODE.
     # pass is only added here to avoid the error mark that Visual Studio Code 
     # uses to indicate some missing code.
-    pass
+    # Appeler extract()
+    dataframes = extract()
+
+    # Afficher les dataframes
+    for name, df in dataframes.items():
+        print(f"\n===== {name} =====")
+        print(df)
     
     ##################################################################################
     
