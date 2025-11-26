@@ -91,7 +91,7 @@ if __name__ == "__main__" :
     # TODO: uncomment this line to print the dataframe input_df and execute the code.
     # In the output, the first column contains values that are not in the input CSV file.
     # It contains a row identifier added by Pandas that is called index.
-    #print(input_df)
+    print(input_df) #Décommenter le print pour afficher le contenu du fichier books.csv
 
     ################### STEP 2: slicing ###################
 
@@ -101,7 +101,7 @@ if __name__ == "__main__" :
     books = input_df[['bookID', 'title', 'authors', 'language_code', 'publication_date']]
 
     # TODO: uncomment this line to print the dataframe books and execute the code.
-    #print(books)
+    print(books) # Décommenter le print pour voir les colonnes : bookID, title, authors, language_code, publication_date.
 
     ################### STEP 3: find and replace ###################
 
@@ -131,7 +131,7 @@ if __name__ == "__main__" :
 
     # TODO: uncomment this line to print the dataframe
     # and execute the code to verify that we correctly replaced the intended values.
-    #print(books)
+    print(books)
 
     ################### STEP 4: removing duplicates ###################
 
@@ -143,7 +143,7 @@ if __name__ == "__main__" :
 
     # TODO: uncomment the following line to see that 
     # publisher names are indeed repeated.
-    # print(publishers)
+    print(publishers)
 
     # We invoke the function drop_duplicates() on the dataframe
     # publishers to eliminate the redundant data.
@@ -151,7 +151,7 @@ if __name__ == "__main__" :
 
     # TODO: uncomment the following line to see that 
     # publisher names are not repeated anymore.
-    #print(publishers)
+    print(publishers)
 
     ################### STEP 5: working with dates ###################
     
@@ -170,7 +170,7 @@ if __name__ == "__main__" :
 
     # TODO: uncomment the following line and verify that the dates respect the format 
     # dd/mm/yyyy
-    #print(books['publication_date'])
+    print(books['publication_date'])
 
     ################## STEP 6: importing into a database ###################
 
@@ -192,8 +192,8 @@ if __name__ == "__main__" :
     # * index=False means that we don't want to import the Pandas row identifiers to our database.
     # 
     # TODO: uncomment the two following lines and execute the code
-    #books.to_sql('Book', conn, if_exists="append", index=False)
-    #publishers.to_sql('Publisher', conn, index=False)
+    books.to_sql('Book', conn, if_exists="append", index=False)
+    publishers.to_sql('Publisher', conn, index=False)
 
     print("Done!")
 
