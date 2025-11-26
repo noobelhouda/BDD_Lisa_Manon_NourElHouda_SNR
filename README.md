@@ -222,7 +222,7 @@ We're now going to run some queries in the database in order to gain a deeper un
 >
 >You can read the code and the comments of function insert_clara to learn how to use the function insert_student.
 
-**QUESTION 5**
+**REPONSE QUESTION 5**
 >```
 > Après avoir lu le code, on conclu que les fonctions : 
 > insert_student() montre comment insérer un étudiant avec une requête paramétrée (avec des ?) et comment gérer les erreurs si l’étudiant existe déjà (sqlite3.IntegrityError).
