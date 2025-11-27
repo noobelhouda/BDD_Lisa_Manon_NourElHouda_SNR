@@ -891,6 +891,11 @@ Une autre fonction va permettre de enabled le boutons ok et de le desactiver gra
 **QUESTION 19**
 
 > Read and execute the following code and try to understand how combo boxes are created and how events are handled.
+
+**REPONSE QUESTION 19** 
+-----------------------------------------
+Pour créer des combo box on definis les valeurs qu'on met dedant, ensuite on les ajoutes dans notre fonction ttk.Combobox(). Le combo box est une liste deroulante et donc l'utilisateur va choisir son element et cela va declancher le <<ComboboxSelected>> grace a la fonction bind(); cela appelle une fonction combo_selected(), elle lit la valeur et met a jour l'interface.
+-------------------------------------------
 > ```python
 > combo_boxes = {}
 > buttons = {}
