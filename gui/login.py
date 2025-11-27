@@ -183,8 +183,31 @@ def _credentials_frm_widgets(credentials_frm):
     # TIP: when you create the text field to enter the password, you can use the argument 
     # show='*' of ttk.Entry() in order to hide the password while the user types it.
     
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    username_lbl_text = messages_bundle["username"]
+    password_lbl_text = messages_bundle["password"]
+
+    #Tkinter Variable
+    username_var = tk.StringVar()
+    password_var = tk.StringVar()
+
+    # Label + Entry Username
+    username_lbl = ttk.Label(credentials_frm, text=username_lbl_text)
+    username_entry = ttk.Entry(credentials_frm, textvariable=username_var)
+
+    # on fait un label + entry Password
+    password_lbl = ttk.Label(credentials_frm, text=password_lbl_text)
+    password_entry = ttk.Entry(credentials_frm, textvariable=password_var, show="*")
+
+    # On stocke dans entries
+    entries["username"] = (username_lbl, username_var)
+    entries["password"] = (password_lbl, password_var)
+
+    # on les place
+    username_lbl.grid(row=0, column=0, padx=10, pady=5, sticky="w")
+    username_entry.grid(row=0, column=1, padx=10, pady=5)
+
+    password_lbl.grid(row=1, column=0, padx=10, pady=5, sticky="w")
+    password_entry.grid(row=1, column=1, padx=10, pady=5)
 
     ####################################################################################
     
@@ -202,8 +225,9 @@ def _message_frm_widgets(message_frm):
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    message_lbl = ttk.Label(message_frm, text="")
+    control_labels["message"] = message_lbl
+    message_lbl.pack()
 
     ####################################################################################
 
@@ -217,7 +241,7 @@ def _buttons_frm_widgets(buttons_frm):
     buttons_frm : ttk.Frame
         The buttons frame.
     """
-
+    
     # Text in the button "Login".
     login_btn_text = messages_bundle["login"]
 
@@ -229,8 +253,20 @@ def _buttons_frm_widgets(buttons_frm):
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    # Boutons
+    login_btn = ttk.Button(buttons_frm, text=login_btn_text)
+    clear_btn = ttk.Button(buttons_frm, text=clear_btn_text)
+    cancel_btn = ttk.Button(buttons_frm, text=cancel_btn_text)
+
+    # Enregistrer les boutons
+    buttons["login"] = login_btn
+    buttons["clear"] = clear_btn
+    buttons["cancel"] = cancel_btn
+
+    # Placement
+    login_btn.pack(side="left", padx=10)
+    clear_btn.pack(side="left", padx=10)
+    cancel_btn.pack(side="right", padx=10)
 
     ####################################################################################
 
