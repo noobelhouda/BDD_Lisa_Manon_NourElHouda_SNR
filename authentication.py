@@ -62,17 +62,17 @@ def create_account(username, plain_password, cursor, conn):
     """
      
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-    # Here are what this function must do:
-    #
-    # * Encrypt the password.
-    # * Try to add the given username and the encrypted password to the database table Login.
-    # * Detect the fact that we're trying to add a username that is already in table Login; in this
-    # case we rollback the transaction and we return (False, DUPLICATE_USERNAME, username)
-    # * If the credentials can be added to the database, commit the transaction and return
-    # (True, None, None)
-
+    hashed_password = encrypt_password(plain_password)
+    try:
+        sql_query = "INSERT INTO Login (username, password) VALUES (?, ?)"
+        cursor.execute(sql_query, (username, hashed_password))
+        conn.commit()
+        return (True, None, None)
+    except sqlite3.IntegrityError:
+        conn.rollback()
+        return (False, DUPLICATE_USERNAME, username)
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
-    return (True, None, None)
+    
     
     ####################################################################################
 
