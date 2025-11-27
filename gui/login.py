@@ -448,26 +448,39 @@ def login():
     res = auth.login_correct(get_username(), get_password(), cursor)
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-    #res est un tuple (ok, error_code, offending_value)
+    # On récupère username et password via les helpers
+    username = get_username()
+    password = get_password()
+
+    # Appel au module d'authentification
+    res = auth.login_correct(username, password, cursor)
     ok, error_code, value = res
 
     if ok:
-        # Identifiants corrects : on ouvre la fenêtre principale
-        # puis on ferme la fenêtre de login
+        # Message de succès
         control_labels["message"].config(text=messages_bundle["login_authorized"])
-        # ouvrir la fenêtre principale
+
+        # Ouvrir la fenêtre principale
         open_main_window(cursor, conn, messages_bundle, lang)
-        # fermer la fenêtre de login
+
+        # Fermer la fenêtre de login
         window.destroy()
     else:
-        # Erreur : username inexistant ou mot de passe incorrect
+        # Erreur : username inconnu
         if error_code == auth.USERNAME_NOT_FOUND:
-            control_labels["message"].config(text=messages_bundle["username_not_found"])
+            control_labels["message"].config(
+                text=messages_bundle["username_not_found"]
+            )
+        # Erreur : mauvais mot de passe
         elif error_code == auth.INCORRECT_PASSWORD:
-            control_labels["message"].config(text=messages_bundle["incorrect_password"])
+            control_labels["message"].config(
+                text=messages_bundle["incorrect_password"]
+            )
+        # Erreur inattendue (par sécurité)
         else:
-            # erreur inattendue (par sécurité)
-            control_labels["message"].config(text=messages_bundle["unexpected_error"])
+            control_labels["message"].config(
+                text=messages_bundle.get("unexpected_error", "Unexpected error")
+            )
     ####################################################################################
 
 def clear():
@@ -477,14 +490,14 @@ def clear():
     """
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-    #Vider les champs
+    # On efface les champs
     entries["username"][1].set("")
     entries["password"][1].set("")
 
-    #Remettre le message initial
+    # Message initial
     control_labels["message"].config(text=messages_bundle["enter_username"])
 
-    #Revenir à l'état INIT (désactiver widgets si implémenté dans init_state)
+    # Retour à l'état INIT (même si init_state est encore vide, on l'appelle)
     init_state()
 
 
