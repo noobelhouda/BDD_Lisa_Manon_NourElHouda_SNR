@@ -202,6 +202,10 @@ def _credentials_frm_widgets(credentials_frm):
     # On stocke dans entries
     entries["username"] = (username_lbl, username_var)
     entries["password"] = (password_lbl, password_var)
+    
+    # Quand l'utilisateur tape, on appelle ces fonctions :
+    username_var.trace_add("write", username_updated)
+    password_var.trace_add("write", password_updated)
 
     # on les place
     username_lbl.grid(row=0, column=0, padx=10, pady=5, sticky="w")
@@ -285,8 +289,8 @@ def init_state():
     entries["password"][0].configure(state="disabled") # label password
     
     # Entry fields
-    entries["password"][1].set("")  # vider password
-    entries["username"][1].set("")  # vider username (optionnel)
+    #entries["password"][1].set("")  # vider password
+    #entries["username"][1].set("")  # vider username (optionnel)
     
     # Buttons
     buttons["login"].configure(state="disabled")
@@ -361,19 +365,21 @@ def username_updated(*args):
     """
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
     username = get_username()
-    
-    # username must be >= 5 chars
-    if len(username) < 5:
+    password = get_password()
+
+    # Si le username n'est pas valide → retour à INIT
+    if not utils.username_ok(username):
         init_state()
-    else:
+        return
+
+    # Username OK mais password pas encore OK → état USERNAME_ENTERED
+    if not utils.password_ok(password):
         username_entered_state()
-        
-        # Check if password already OK → login possible
-        if len(get_password()) >= 6:
-            credentials_entered_state(messages_bundle["ready_to_login"])
+        return
+
+    # Les deux sont OK → état CREDENTIALS_ENTERED
+    credentials_entered_state(messages_bundle["login_authorized"])
 
     ####################################################################################
 
@@ -395,16 +401,27 @@ def password_updated(*args):
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
+    username = get_username()
     password = get_password()
-    
-    # password must be >= 6 chars
-    if len(password) < 6:
-        username_entered_state()
-    else:
-        # Password OK → check also username
-        if len(get_username()) >= 5:
-            credentials_entered_state(messages_bundle["ready_to_login"])
+
+    # Si le password n'est pas valide
+    if not utils.password_ok(password):
+        # Si le username est valide → on revient à USERNAME_ENTERED
+        if utils.username_ok(username):
+            username_entered_state()
+        else:
+            # Sinon → INIT
+            init_state()
+        return
+
+    # Si password OK mais username pas OK → INIT
+    if not utils.username_ok(username):
+        init_state()
+        return
+
+    # Les deux OK → CREDENTIALS_ENTERED
+    credentials_entered_state(messages_bundle["login_authorized"])
+
 
     ####################################################################################
 
@@ -420,7 +437,7 @@ def login():
 
     The function returns a tuple:
     * (True, None, None) if the username and the password are correct (in the current implementation, the only correct
-    combinatio is ("admin", "Adm1n!") ).
+    combination is ("admin", "Adm1n!") ).
 
     * (False, USERNAME_NOT_FOUND, username) if the username doesn't exist.
 
@@ -431,7 +448,7 @@ def login():
     res = auth.login_correct(get_username(), get_password(), cursor)
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-# res est un tuple (ok, error_code, offending_value)
+    #res est un tuple (ok, error_code, offending_value)
     ok, error_code, value = res
 
     if ok:
