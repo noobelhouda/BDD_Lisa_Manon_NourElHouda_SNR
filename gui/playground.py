@@ -12,43 +12,39 @@ from gui_config import configure_style
 
 ###################### You'll copy here the code to play with ######################
 
-radio_buttons = {}
+combo_boxes = {}
 buttons = {}
+control_labels = {}
 
-def click_ok_handler():
-    print("The user clicked OK")
+window = None
 
-def rb_selected(*args):
-    current_value = radio_buttons["enable_disable"][2].get()
-    if current_value == 'E':
-        ok_enabled_state()
-    elif current_value == 'D':
-        ok_disabled_state()
+def combo_selected():
+    current_color = combo_boxes["color"].get()
+    control_labels["color_ctrl"].configure(text="The selected color is {}".format(current_color))
 
-def ok_enabled_state():
-    buttons["OK"].configure(state=["!disabled"])
-    print("The button is now enabled")
-
-def ok_disabled_state():
-    buttons["OK"].configure(state=["disabled"])
-    print("The button is now disabled")
+def destroy_window():
+    window.destroy()
 
 window = tk.Tk()
 window.title("Playground")
 configure_style()
 first_frm = ttk.Frame(window, style="Tab.TFrame")
 
-rb_value = tk.StringVar(value="")
-rb_value.trace("w", rb_selected)
-enable_rb = ttk.Radiobutton(first_frm, text='Enable', value='E', variable=rb_value)
-disable_rb = ttk.Radiobutton(first_frm, text='Disable', value='D', variable=rb_value)
-radio_buttons["enable_disable"] = (enable_rb, disable_rb, rb_value)
-enable_rb.pack()
-disable_rb.pack()
+ctrl_label = ttk.Label(first_frm)
+control_labels["color_ctrl"] = ctrl_label
+ctrl_label.pack()
 
-button = ttk.Button(first_frm, state="disabled", text="OK", command=click_ok_handler)
+colors = ["red", "green", "blue", "yellow"]
+color_combo = ttk.Combobox(first_frm, values=colors)
+combo_boxes["color"] = color_combo
+color_combo.bind("<<ComboboxSelected>>", \
+        lambda event: combo_selected())
+color_combo.pack()
+
+button = ttk.Button(first_frm, text="Destroy", command=destroy_window)
 buttons["OK"] = button
 button.pack()
+
 first_frm.pack()
 window.mainloop()
 
