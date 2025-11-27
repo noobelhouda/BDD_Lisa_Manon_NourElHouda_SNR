@@ -226,7 +226,7 @@ def _message_frm_widgets(message_frm):
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    message_lbl = ttk.Label(message_frm, text="")
+    message_lbl = ttk.Label(message_frm, text=messages_bundle["enter_username"])
     control_labels["message"] = message_lbl
     message_lbl.pack()
 
@@ -254,10 +254,10 @@ def _buttons_frm_widgets(buttons_frm):
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # Boutons
-    login_btn = ttk.Button(buttons_frm, text=login_btn_text)
-    clear_btn = ttk.Button(buttons_frm, text=clear_btn_text)
-    cancel_btn = ttk.Button(buttons_frm, text=cancel_btn_text)
+    # Boutons avec callbacks
+    login_btn = ttk.Button(buttons_frm, text=login_btn_text, command=login)
+    clear_btn = ttk.Button(buttons_frm, text=clear_btn_text, command=clear)
+    cancel_btn = ttk.Button(buttons_frm, text=cancel_btn_text, command=cancel)
 
     # Enregistrer les boutons
     buttons["login"] = login_btn
@@ -395,10 +395,26 @@ def login():
     res = auth.login_correct(get_username(), get_password(), cursor)
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
+# res est un tuple (ok, error_code, offending_value)
+    ok, error_code, value = res
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
-
+    if ok:
+        # Identifiants corrects : on ouvre la fenêtre principale
+        # puis on ferme la fenêtre de login
+        control_labels["message"].config(text=messages_bundle["login_authorized"])
+        # ouvrir la fenêtre principale
+        open_main_window(cursor, conn, messages_bundle, lang)
+        # fermer la fenêtre de login
+        window.destroy()
+    else:
+        # Erreur : username inexistant ou mot de passe incorrect
+        if error_code == auth.USERNAME_NOT_FOUND:
+            control_labels["message"].config(text=messages_bundle["username_not_found"])
+        elif error_code == auth.INCORRECT_PASSWORD:
+            control_labels["message"].config(text=messages_bundle["incorrect_password"])
+        else:
+            # erreur inattendue (par sécurité)
+            control_labels["message"].config(text=messages_bundle["unexpected_error"])
     ####################################################################################
 
 def clear():
@@ -408,9 +424,16 @@ def clear():
     """
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
+    #Vider les champs
+    entries["username"][1].set("")
+    entries["password"][1].set("")
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    #Remettre le message initial
+    control_labels["message"].config(text=messages_bundle["enter_username"])
+
+    #Revenir à l'état INIT (désactiver widgets si implémenté dans init_state)
+    init_state()
+
 
     ####################################################################################
 
@@ -420,9 +443,7 @@ def cancel():
     """
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
-
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    window.destroy()
 
     ####################################################################################
     
