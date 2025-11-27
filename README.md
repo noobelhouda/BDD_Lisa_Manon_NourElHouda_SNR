@@ -727,8 +727,12 @@ window.mainloop()
 
 > In the window produced by the previous code, the top frame doesn't fill the window. Modify the code to do so. Execute the file.
 
+**REPONSE QS 17**
+----------------------------------------------------
+In the window produced by the code that you modified, the labels in the top frame stick to the left side of the frame. If we want them to be spread uniformly across the frame, we need to call the function columnconfigure() on the top frame, as follows (put these two lines right before the instruction that you modified at the previous 
+---------------------------------------------------
 
-In the window produced by the code that you modified, the labels in the top frame stick to the left side of the frame. If we want them to be spread uniformly across the frame, we need to call the function columnconfigure() on the top frame, as follows (put these two lines right before the instruction that you modified at the previous question):
+question):
 ```python
 first_frm.columnconfigure(0, weight=1)
 first_frm.columnconfigure(1, weight=1)
@@ -835,6 +839,13 @@ Let's now read the function check_first_ent() that is invoked when the user chan
 **QUESTION 18** 
 
 > Read and execute the following code and try to understand how radio buttons are created and how events are handled.
+
+**REPONSE QUESTION 18** 
+-----------------------------------------
+Les boutons radios partagent la meme variables rb_value, qui s'initie en E si enable et en D si disable. la fonction trace va venir detecter si il y a un changement de valeur pour rb_value et elle appele donc la fonction rb_selected. Cette fonction recupere la valeur de rb_value et decide d'activer ou de desactiver le bouton OK grace au ok_enabled_state() ou ok_disable_state().
+Une autre fonction va permettre de enabled le boutons ok et de le desactiver grace par ex au buttons["OK"].configure(state=["disabled"]).
+-------------------------------------------
+
 > ```python
 > radio_buttons = {}
 > buttons = {}
