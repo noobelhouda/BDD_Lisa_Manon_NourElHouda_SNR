@@ -25,6 +25,7 @@ import authentication as auth
 import utils
 
 
+
 """
 INSTRUCTION: The definition of global variables goes here. 
 You can add as many as you need for the realization of the window.
@@ -242,8 +243,19 @@ def init_state():
 
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    """INIT state : only username enabled, message: enter_username"""
+    
+    # username
+    entries["username"][1].config(state="normal")
+    
+    # psw
+    entries["password"][1].config(state="disabled")
+    
+    # boutton login
+    buttons["login"].config(state="disabled")
+    
+    # message pour entrer le username
+    control_labels["msg"].config(text=messages_bundle["enter_username"])
     
     ####################################################################################
 
