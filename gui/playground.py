@@ -12,23 +12,44 @@ from gui_config import configure_style
 
 ###################### You'll copy here the code to play with ######################
 
+radio_buttons = {}
+buttons = {}
+
+def click_ok_handler():
+    print("The user clicked OK")
+
+def rb_selected(*args):
+    current_value = radio_buttons["enable_disable"][2].get()
+    if current_value == 'E':
+        ok_enabled_state()
+    elif current_value == 'D':
+        ok_disabled_state()
+
+def ok_enabled_state():
+    buttons["OK"].configure(state=["!disabled"])
+    print("The button is now enabled")
+
+def ok_disabled_state():
+    buttons["OK"].configure(state=["disabled"])
+    print("The button is now disabled")
+
 window = tk.Tk()
 window.title("Playground")
 configure_style()
+first_frm = ttk.Frame(window, style="Tab.TFrame")
 
-first_frm = ttk.Frame(window, style="Sample.TFrame")
-ttk.Label(first_frm, text="Grid (0, 0)", style="Sample.TLabel").grid(row=0, column=0, padx=10, pady=10)
-ttk.Label(first_frm, text="Grid (0, 1)", style="Sample.TLabel").grid(row=0, column=1, padx=10, pady=10)
-ttk.Label(first_frm, text="Grid (1, 0)", style="Sample.TLabel").grid(row=1, column=0, padx=10, pady=10)
-ttk.Label(first_frm, text="Grid (1, 1)", style="Sample.TLabel").grid(row=1, column=1, padx=10, pady=10)
-first_frm.pack(expand=True, fill="both")
+rb_value = tk.StringVar(value="")
+rb_value.trace("w", rb_selected)
+enable_rb = ttk.Radiobutton(first_frm, text='Enable', value='E', variable=rb_value)
+disable_rb = ttk.Radiobutton(first_frm, text='Disable', value='D', variable=rb_value)
+radio_buttons["enable_disable"] = (enable_rb, disable_rb, rb_value)
+enable_rb.pack()
+disable_rb.pack()
 
-second_frm = ttk.Frame(window, style="SampleBottom.TFrame")
-ttk.Label(second_frm, text="Grid (0, 0)", style="Sample.TLabel").grid(row=0, column=0, padx=10, pady=10)
-ttk.Label(second_frm, text="Grid (0, 1)", style="Sample.TLabel").grid(row=0, column=1, padx=10, pady=10)
-ttk.Label(second_frm, text="Grid (0, 2)", style="Sample.TLabel").grid(row=0, column=2, padx=10, pady=10)
-second_frm.pack()
-
+button = ttk.Button(first_frm, state="disabled", text="OK", command=click_ok_handler)
+buttons["OK"] = button
+button.pack()
+first_frm.pack()
 window.mainloop()
 
 #####################################################################################
