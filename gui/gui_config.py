@@ -14,8 +14,8 @@ active_button = None
 def load_icon_image():
     """Loads the icon image of SkisatiResa
     """
-    icon = Image.open("./gui/icons/wacs-logo.jpg")
-    icon = icon.resize((32, 32), Image.ANTIALIAS)
+    icon = Image.open("./gui/icons/skisati-logo.png")
+    icon = icon.resize((32, 32), Image.Resampling.LANCZOS)
     icon = ImageTk.PhotoImage(icon)
     return icon
 
