@@ -74,8 +74,34 @@ def get_student(stud_number, cursor):
     """
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
-    raise NotImplementedError
+    try:
+        # Récupération du student
+        cursor.execute("""
+            SELECT stud_number, first_name, last_name, gender 
+            FROM Student 
+            WHERE stud_number = ?
+        """, (stud_number,))
+        
+        row = cursor.fetchone()
+
+        # Aucun étudiant trouvé → tuple vide
+        if row is None:
+            return ()
+
+        # Récupération des emails
+        cursor.execute("""
+            SELECT email 
+            FROM EmailAddress 
+            WHERE stud_number = ?
+        """, (stud_number,))
+        
+        emails = [email_row[0] for email_row in cursor.fetchall()]
+
+        # Retour du tuple au format demandé
+        return (row[0], row[1], row[2], row[3], emails)
+
+    except sqlite3.Error:
+        return ()
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_get_student().
@@ -120,7 +146,12 @@ def get_associations(cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
-    raise NotImplementedError
+    try:
+        cursor.execute("SELECT asso_name, asso_desc FROM Association")
+        rows = cursor.fetchall()
+        return [(r[0], r[1]) for r in rows]
+    except sqlite3.Error:
+        return None
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_get_associations().
@@ -166,7 +197,12 @@ def get_roles(cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
-    raise NotImplementedError
+    try:
+        cursor.execute("SELECT DISTINCT role FROM Membership")
+        rows = cursor.fetchall()
+        return [r[0] for r in rows if r[0] is not None]
+    except sqlite3.Error:
+        return None
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_get_roles().
@@ -218,7 +254,12 @@ def get_memberships(stud_number, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
-    raise NotImplementedError
+    try:
+        cursor.execute("SELECT asso_name, role FROM Membership WHERE stud_number = ?", (stud_number,))
+        rows = cursor.fetchall()
+        return [(r[0], r[1]) for r in rows]
+    except sqlite3.Error:
+        return None
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_get_memberships().
@@ -280,7 +321,18 @@ def add_email_address(stud_number, email_address, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("INSERT INTO EmailAddress(email, stud_number) VALUES (?, ?)", (email_address, stud_number))
+        return (True, None, None)
+    except sqlite3.IntegrityError as e:
+        msg = str(e)
+        # Email déjà utilisée (contrainte unique)
+        if "EmailAddress.email" in msg or "UNIQUE constraint failed: EmailAddress.email" in msg:
+            return (False, DUPLICATE_EMAIL_ADDRESS, email_address)
+        else:
+            return (False, UNEXPECTED_ERROR, msg)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_add_email_address().
@@ -362,7 +414,32 @@ def add_student(stud_number, first_name, last_name, gender, email_addresses, cur
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        # Insérer l'étudiant
+        cursor.execute("INSERT INTO Student(stud_number, first_name, last_name, gender) VALUES (?, ?, ?, ?)",
+                       (stud_number, first_name, last_name, gender))
+        # Insérer adresses e-mail
+        for email in email_addresses:
+            cursor.execute("INSERT INTO EmailAddress(email, stud_number) VALUES (?, ?)", (email, stud_number))
+        return (True, None, None)
+    except sqlite3.IntegrityError as e:
+        msg = str(e)
+        # Différencier erreur numéro étudiant / email
+        if "Student.stud_number" in msg or "UNIQUE constraint failed: Student.stud_number" in msg:
+            return (False, DUPLICATE_STUD_NUMBER, None)
+        if "EmailAddress.email" in msg or "UNIQUE constraint failed: EmailAddress.email" in msg:
+            # extraire l'email n'est pas trivial depuis le message, on renvoie celle en conflit si possible
+            # On renvoie l'email qu'on essayait d'insérer (le dernier)
+            return (False, DUPLICATE_EMAIL_ADDRESS, email)
+        # autre IntegrityError
+        return (False, UNEXPECTED_ERROR, msg)
+    except sqlite3.Error as e:
+        # tentative de nettoyage si l'étudiant a été partiellement inséré
+        try:
+            cursor.execute("DELETE FROM Student WHERE stud_number = ?", (stud_number,))
+        except Exception:
+            pass
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_add_student().
@@ -428,7 +505,19 @@ def add_membership(stud_number, membership, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        asso_name, role = membership
+        cursor.execute("INSERT INTO Membership(stud_number, asso_name, role) VALUES (?, ?, ?)",
+                       (stud_number, asso_name, role))
+        return (True, None, None)
+    except sqlite3.IntegrityError as e:
+        msg = str(e)
+        if "Membership.stud_number, Membership.asso_name" in msg or "UNIQUE constraint failed: Membership.stud_number, Membership.asso_name" in msg:
+            return (False, DUPLICATE_MEMBERSHIP, asso_name)
+        # s'il s'agit d'une contrainte FK manquante, renvoyer unexpected
+        return (False, UNEXPECTED_ERROR, msg)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_add_membership().
@@ -481,7 +570,12 @@ def delete_email_address(stud_number, email_address, cursor):
    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("DELETE FROM EmailAddress WHERE stud_number = ? AND email = ?", (stud_number, email_address))
+        # suppression ok, même si zéro lignes affectées
+        return (True, None, None)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_delete_email_address(). IF THE TEST 
@@ -534,7 +628,11 @@ def delete_membership(stud_number, asso_name, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("DELETE FROM Membership WHERE stud_number = ? AND asso_name = ?", (stud_number, asso_name))
+        return (True, None, None)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_delete_membership(). IF THE TEST 
@@ -586,7 +684,11 @@ def update_first_name(stud_number, first_name, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("UPDATE Student SET first_name = ? WHERE stud_number = ?", (first_name, stud_number))
+        return (True, None, None)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_update_first_name(). IF THE TEST 
@@ -640,7 +742,11 @@ def update_last_name(stud_number, last_name, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("UPDATE Student SET last_name = ? WHERE stud_number = ?", (last_name, stud_number))
+        return (True, None, None)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_update_last_name(). IF THE TEST 
@@ -694,7 +800,11 @@ def update_gender(stud_number, gender, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("UPDATE Student SET gender = ? WHERE stud_number = ?", (gender, stud_number))
+        return (True, None, None)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_update_gender(). IF THE TEST 
@@ -761,7 +871,16 @@ def update_email_address(stud_number, old_email_address, new_email_address, curs
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        cursor.execute("UPDATE EmailAddress SET email = ? WHERE stud_number = ? AND email = ?", (new_email_address, stud_number, old_email_address))
+        return (True, None, None)
+    except sqlite3.IntegrityError as e:
+        msg = str(e)
+        if "EmailAddress.email" in msg or "UNIQUE constraint failed: EmailAddress.email" in msg:
+            return (False, DUPLICATE_EMAIL_ADDRESS, new_email_address)
+        return (False, UNEXPECTED_ERROR, msg)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_update_email_address().
@@ -830,7 +949,19 @@ def update_membership(stud_number, old_association, new_association, role, curso
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
-    raise NotImplementedError
+    try:
+        # on veut remplacer la ligne (stud_number, old_association) par (stud_number, new_association, role)
+        cursor.execute("UPDATE Membership SET asso_name = ?, role = ? WHERE stud_number = ? AND asso_name = ?",
+                       (new_association, role, stud_number, old_association))
+        return (True, None, None)
+    except sqlite3.IntegrityError as e:
+        msg = str(e)
+        # si conflit unique sur (stud_number, asso_name)
+        if "Membership.stud_number, Membership.asso_name" in msg or "UNIQUE constraint failed: Membership.stud_number, Membership.asso_name" in msg:
+            return (False, DUPLICATE_MEMBERSHIP, new_association)
+        return (False, UNEXPECTED_ERROR, msg)
+    except sqlite3.Error as e:
+        return (False, UNEXPECTED_ERROR, str(e))
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_update_membership().
@@ -849,15 +980,16 @@ if __name__ == '__main__':
     config = utils.load_config()
 
     # Connects to the database.
-    conn = sqlite3.connect(config["db"])
-    
+    app_config = utils.load_config()
+    db_file = app_config["db"]
+    conn = sqlite3.connect(db_file)
     # Enables the foreign key contraints support in SQLite.
     conn.execute("PRAGMA foreign_keys = 1")
     
     # Get the cursor for the connection. This object is used to execute queries 
     # in the database.
     cursor = conn.cursor()
-
+    
     ###################### CALLING HERE THE TEST FUNCTIONS ##########################
     
     test_get_student(cursor)
