@@ -75,7 +75,6 @@ def get_student(stud_number, cursor):
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
     
     try:
-        # Récupération du student
         cursor.execute("""
             SELECT stud_number, first_name, last_name, gender 
             FROM Student 
@@ -84,11 +83,9 @@ def get_student(stud_number, cursor):
         
         row = cursor.fetchone()
 
-        # Aucun étudiant trouvé → tuple vide
         if row is None:
             return ()
 
-        # Récupération des emails
         cursor.execute("""
             SELECT email 
             FROM EmailAddress 
@@ -97,11 +94,10 @@ def get_student(stud_number, cursor):
         
         emails = [email_row[0] for email_row in cursor.fetchall()]
 
-        # Retour du tuple au format demandé
         return (row[0], row[1], row[2], row[3], emails)
 
     except sqlite3.Error:
-        return ()
+        return None
 
     # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
     # SCRIPT. THIS WILL TRIGGER THE TEST test_get_student().
@@ -195,18 +191,14 @@ def get_roles(cursor):
     If an error occurs while querying the database, the function returns None.
     """
     ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
-    
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
     try:
-        cursor.execute("SELECT DISTINCT role FROM Membership")
+        cursor.execute("SELECT DISTINCT stud_role FROM membership")
         rows = cursor.fetchall()
+        # On renvoie une liste simple de strings
         return [r[0] for r in rows if r[0] is not None]
     except sqlite3.Error:
         return None
 
-    # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
-    # SCRIPT. THIS WILL TRIGGER THE TEST test_get_roles().
-    
     ##############################################################################
 
 def test_get_memberships(cursor):
@@ -217,52 +209,38 @@ def test_get_memberships(cursor):
     cursor :
         The object used to query the database.
     """
-    
     try:
-        # Memberships of an non-existing student.
+        # Memberships of a non-existing student.
         memberships = get_memberships(1234, cursor)
         assert len(memberships) == 0, "The memberships of a non-existing student must be an empty list"
 
         memberships = get_memberships(7719175, cursor)
         assert len(memberships) == 3, "Student 7719175 must be member of 3 associations"
-        
+
         memberships.sort(key=lambda x: x[0])
-        assert memberships[0][0] == "BDE" and memberships[0][1] == "member", "The function returns a list, where each item must be a tuple (asso_name, stud_role)"
+        assert memberships[0][0] == "BDE" and memberships[0][1] == "member", \
+            "The function returns a list, where each item must be a tuple (asso_name, stud_role)"
 
         print("The function get_memberships is CORRECT! Great job!\n\n")
+
     except NotImplementedError:
         pass
     
 def get_memberships(stud_number, cursor):
     """Get all the associations of which a student is a member.
 
-    Parameters
-    ----------
-    stud_number : int
-        The student number
-    cursor: 
-        The object used to query the database.
-
-    Returns
-    -------
-    A (possibly, empty) list of the student memberships.
-    Each item of the list is a tuple (asso_name, student_role).
-
-    If an error occurs while querying the database, the function returns None.
-    
+    Returns a list of (asso_name, stud_role) tuples.
     """
-    ################ TODO: WRITE HERE THE CODE OF THE FUNCTION ##################
-    
-    # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
     try:
-        cursor.execute("SELECT asso_name, role FROM Membership WHERE stud_number = ?", (stud_number,))
+        cursor.execute(
+            "SELECT asso_name, stud_role FROM membership WHERE stud_number = ?",
+            (stud_number,)
+        )
         rows = cursor.fetchall()
+        #Si l'étudiant n'a pas de memberships, rows sera [], donc on renvoie []
         return [(r[0], r[1]) for r in rows]
     except sqlite3.Error:
         return None
-
-    # AFTER YOU FINISH THE IMPLEMENTATION OF THIS FUNCTION, RUN THIS FILE AS A PYTHON
-    # SCRIPT. THIS WILL TRIGGER THE TEST test_get_memberships().
     
     ##############################################################################
 
@@ -507,14 +485,17 @@ def add_membership(stud_number, membership, cursor):
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
     try:
         asso_name, role = membership
-        cursor.execute("INSERT INTO Membership(stud_number, asso_name, role) VALUES (?, ?, ?)",
-                       (stud_number, asso_name, role))
+        cursor.execute(
+            "INSERT INTO membership(stud_number, asso_name, stud_role) VALUES (?, ?, ?)",
+            (stud_number, asso_name, role)
+        )
         return (True, None, None)
     except sqlite3.IntegrityError as e:
         msg = str(e)
-        if "Membership.stud_number, Membership.asso_name" in msg or "UNIQUE constraint failed: Membership.stud_number, Membership.asso_name" in msg:
+        # contrainte unique sur (stud_number, asso_name)
+        if "membership.stud_number, membership.asso_name" in msg \
+           or "UNIQUE constraint failed: membership.stud_number, membership.asso_name" in msg:
             return (False, DUPLICATE_MEMBERSHIP, asso_name)
-        # s'il s'agit d'une contrainte FK manquante, renvoyer unexpected
         return (False, UNEXPECTED_ERROR, msg)
     except sqlite3.Error as e:
         return (False, UNEXPECTED_ERROR, str(e))
@@ -629,7 +610,7 @@ def delete_membership(stud_number, asso_name, cursor):
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
     try:
-        cursor.execute("DELETE FROM Membership WHERE stud_number = ? AND asso_name = ?", (stud_number, asso_name))
+        cursor.execute("DELETE FROM membership WHERE stud_number = ? AND asso_name = ?", (stud_number, asso_name))
         return (True, None, None)
     except sqlite3.Error as e:
         return (False, UNEXPECTED_ERROR, str(e))
@@ -950,14 +931,16 @@ def update_membership(stud_number, old_association, new_association, role, curso
     
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE.
     try:
-        # on veut remplacer la ligne (stud_number, old_association) par (stud_number, new_association, role)
-        cursor.execute("UPDATE Membership SET asso_name = ?, role = ? WHERE stud_number = ? AND asso_name = ?",
-                       (new_association, role, stud_number, old_association))
+        cursor.execute(
+            "UPDATE membership SET asso_name = ?, stud_role = ? "
+            "WHERE stud_number = ? AND asso_name = ?",
+            (new_association, role, stud_number, old_association)
+        )
         return (True, None, None)
     except sqlite3.IntegrityError as e:
         msg = str(e)
-        # si conflit unique sur (stud_number, asso_name)
-        if "Membership.stud_number, Membership.asso_name" in msg or "UNIQUE constraint failed: Membership.stud_number, Membership.asso_name" in msg:
+        if "membership.stud_number, membership.asso_name" in msg \
+           or "UNIQUE constraint failed: membership.stud_number, membership.asso_name" in msg:
             return (False, DUPLICATE_MEMBERSHIP, new_association)
         return (False, UNEXPECTED_ERROR, msg)
     except sqlite3.Error as e:
