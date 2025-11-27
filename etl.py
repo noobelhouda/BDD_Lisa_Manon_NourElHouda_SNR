@@ -60,7 +60,7 @@ def extract():
 
     skisati_df = registrations_df[["year", "registration_fee"]]
     registration_df = registrations_df[
-        ["stud_number", "year", "registration_date", "payment_date", "registration_fee"]
+        ["stud_number", "year", "registration_date", "payment_date"]
     ]
 
     # Remplir le dictionnaire
@@ -199,7 +199,29 @@ def load(dataframes):
     print("Loading the data into the database...")
     
     ################## TODO: COMPLETE THE CODE OF THIS FUNCTION  #####################
-    
+    #On insère les dataframes dans les tables dans un ordre compatible avec les clés étrangères
+
+    #Student d’abord (table de base)
+    dataframes["Student"].to_sql("Student", conn, if_exists="append", index=False)
+
+    #Association
+    dataframes["Association"].to_sql("Association", conn, if_exists="append", index=False)
+
+    #SkisatiEdition
+    dataframes["SkisatiEdition"].to_sql("SkisatiEdition", conn, if_exists="append", index=False)
+
+    #EmailAddress (dépend de Student)
+    dataframes["EmailAddress"].to_sql("EmailAddress", conn, if_exists="append", index=False)
+
+    #Membership (dépend de Student et Association)
+    dataframes["Membership"].to_sql("membership", conn, if_exists="append", index=False)
+
+    #Registration (dépend de Student et SkisatiEdition)
+    dataframes["Registration"].to_sql("Registration", conn, if_exists="append", index=False)
+
+    #On valide tout
+    conn.commit()
+
     
     ##################################################################################
 
@@ -238,5 +260,7 @@ if __name__ == "__main__":
         print(f"\n===== {name} =====")
         print(df)
     
+    #Chargement dans la base
+    load(dataframes)
     ##################################################################################
     
