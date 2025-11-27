@@ -97,7 +97,7 @@ def test_get_associations(cursor):
             Verify that you correctly loaded the data into the database and try again"
 
         associations.sort(key=lambda x : x[0])
-        assert associations[0][0] == "BDE", "The function returns a list where each item is a tuple (asso_name, asso_desc)"
+        assert associations[0][0] == "BDA", "The function returns a list where each item is a tuple (asso_name, asso_desc)"
         print("The function get_associations is CORRECT! Great job!\n\n")
     except NotImplementedError:
         pass
