@@ -11,24 +11,24 @@ from gui_config import configure_style
 
 
 ###################### You'll copy here the code to play with ######################
+
 window = tk.Tk()
 window.title("Playground")
-
-
 configure_style()
 
+first_frm = ttk.Frame(window, style="Sample.TFrame")
+ttk.Label(first_frm, text="Grid (0, 0)", style="Sample.TLabel").grid(row=0, column=0, padx=10, pady=10)
+ttk.Label(first_frm, text="Grid (0, 1)", style="Sample.TLabel").grid(row=0, column=1, padx=10, pady=10)
+ttk.Label(first_frm, text="Grid (1, 0)", style="Sample.TLabel").grid(row=1, column=0, padx=10, pady=10)
+ttk.Label(first_frm, text="Grid (1, 1)", style="Sample.TLabel").grid(row=1, column=1, padx=10, pady=10)
+first_frm.pack(expand=True, fill="both")
 
-first_frame = ttk.Frame(window, style="Sample.TFrame")
-first_label = ttk.Label(first_frame, text="First label", style="Sample.TLabel")
-first_ent_var = tk.StringVar(value="")
-first_text_field = ttk.Entry(first_frame, textvariable=first_ent_var)
-first_button = ttk.Button(first_frame, text="First button")
-first_label.pack(side=tk.LEFT, expand=True, fill=tk.BOTH)
+second_frm = ttk.Frame(window, style="SampleBottom.TFrame")
+ttk.Label(second_frm, text="Grid (0, 0)", style="Sample.TLabel").grid(row=0, column=0, padx=10, pady=10)
+ttk.Label(second_frm, text="Grid (0, 1)", style="Sample.TLabel").grid(row=0, column=1, padx=10, pady=10)
+ttk.Label(second_frm, text="Grid (0, 2)", style="Sample.TLabel").grid(row=0, column=2, padx=10, pady=10)
+second_frm.pack()
 
-first_text_field.pack()
-first_button.pack()
-first_frame.pack(expand=True, fill=tk.BOTH)
 window.mainloop()
-
 
 #####################################################################################
