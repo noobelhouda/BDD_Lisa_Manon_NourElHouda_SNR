@@ -666,6 +666,8 @@ window.mainloop()
 
 > Explain the position of the widgets in the window.
 
+le First label est a la gauche de notre fenetre et s'etends quand on modifie la taille de la fenetre, il remplis donc l'espace libre. alors que le reste garde sa taille ( le text field, et le fist button) mais la first frame s'entends a la verticale mais reste de la meme largueur .
+/var/folders/f2/6mn16gg15cn91432wrjkctxw0000gp/T/
 
 #### The grid geometry manager
 
@@ -696,7 +698,7 @@ first_lbl.grid(row=0, column=0, padx=10, pady=10)
 second_lbl.grid(row=0, column=1, padx=10, pady=10)
 third_lbl.grid(row=1, column=0, padx=10, pady=10)
 fourth_lbl.grid(row=1, column=1, padx=10, pady=10)
-
+TemporaryItems/NSIRD_screencaptureui_jCrJiF/Capture d’écran 2025-11-27 à 08.58.38.png
 In the following example, we add two frames to the window; each frame uses the grid geometry manager, but in the top frame the labels are arranged into a 4x4 grid, while in the bottom frame the labels are arranged into a 1x3 grid.
 ```python
 window = tk.Tk()
