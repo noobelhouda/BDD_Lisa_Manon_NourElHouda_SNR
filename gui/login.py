@@ -281,18 +281,25 @@ def init_state():
 
     """INIT state : only username enabled, message: enter_username"""
     
-    # username
-    entries["username"][1].config(state="normal")
+    entries["username"][0].configure(state="normal")   # label username
+    entries["password"][0].configure(state="disabled") # label password
     
-    # psw
-    entries["password"][1].config(state="disabled")
+    # Entry fields
+    entries["password"][1].set("")  # vider password
+    entries["username"][1].set("")  # vider username (optionnel)
     
-    # boutton login
-    buttons["login"].config(state="disabled")
+    # Buttons
+    buttons["login"].configure(state="disabled")
     
-    # message pour entrer le username
-    control_labels["msg"].config(text=messages_bundle["enter_username"])
-    
+    # Enable username text field, disable password
+    for child in entries["username"][0].master.grid_slaves(row=0, column=1):
+        child.configure(state="normal")
+    for child in entries["password"][0].master.grid_slaves(row=1, column=1):
+        child.configure(state="disabled")
+
+    control_labels["message"].configure(
+        text=messages_bundle["enter_username"]
+    )
     ####################################################################################
 
 def username_entered_state():
@@ -304,7 +311,16 @@ def username_entered_state():
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
     # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    # Enable password entry
+    for child in entries["password"][0].master.grid_slaves(row=1, column=1):
+        child.configure(state="normal")
+    
+    # Disable login
+    buttons["login"].configure(state="disabled")
+
+    control_labels["message"].configure(
+        text=messages_bundle["enter_password"]
+    )
 
     ####################################################################################
 
@@ -323,7 +339,9 @@ def credentials_entered_state(message):
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
     # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    
+    buttons["login"].configure(state="normal")
+    control_labels["message"].configure(text=message)
 
     ####################################################################################
 
@@ -345,7 +363,17 @@ def username_updated(*args):
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
     # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    username = get_username()
+    
+    # username must be >= 5 chars
+    if len(username) < 5:
+        init_state()
+    else:
+        username_entered_state()
+        
+        # Check if password already OK → login possible
+        if len(get_password()) >= 6:
+            credentials_entered_state(messages_bundle["ready_to_login"])
 
     ####################################################################################
 
@@ -368,7 +396,15 @@ def password_updated(*args):
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
     # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    password = get_password()
+    
+    # password must be >= 6 chars
+    if len(password) < 6:
+        username_entered_state()
+    else:
+        # Password OK → check also username
+        if len(get_username()) >= 5:
+            credentials_entered_state(messages_bundle["ready_to_login"])
 
     ####################################################################################
 
