@@ -99,12 +99,24 @@ def login_correct(username, password, cursor):
 
     #### CURRENT IMPLEMENTATION THAT ONLY GRANTS ACCESS TO USER admin WITH PASSWORD "Adm1n!"
     # REMOVE THIS CODE WHEN YOU WRITE YOUR IMPLEMENTATION
-    if username != "admin":
+    # 1. Query the database for the user's stored hashed password
+    sql_query = "SELECT password FROM Login WHERE username = ?"
+    cursor.execute(sql_query, (username,))
+    result = cursor.fetchone()
+
+    # 2. Check if the username exists
+    if result is None:
         return (False, USERNAME_NOT_FOUND, username)
-    elif password != "Adm1n!":
-        return (False, INCORRECT_PASSWORD, password)
+    
+    # The stored password is the first (and only) element of the result tuple
+    hashed_password_from_db = result[0]
+    
+    # 3. Verify the plain-text password against the stored hash
+    # pwd_context is accessible from the module's scope
+    if pwd_context.verify(password, hashed_password_from_db):
+        return (True, None, None) # Passwords match
     else:
-        return (True, None, None)
+        return (False, INCORRECT_PASSWORD, password) # Passwords do not match
     
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
     # The function must check whether an account with the given username and password 
