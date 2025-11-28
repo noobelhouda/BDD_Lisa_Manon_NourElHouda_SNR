@@ -64,12 +64,12 @@ def create_account(username, plain_password, cursor, conn):
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
     hashed_password = encrypt_password(plain_password)
     try:
-        sql_query = "INSERT INTO Login (username, password) VALUES (?, ?)"
-        cursor.execute(sql_query, (username, hashed_password))
-        conn.commit()
+        sql_query = "INSERT INTO Login (username, password) VALUES (?, ?)" # on ajoute un nom d'utilisateur et un mot de passe
+        cursor.execute(sql_query, (username, hashed_password)) # on exécute la commande avec l'utilisateur et le mot de passe crypté
+        conn.commit() #on sauvegarde les changements dans la base de données
         return (True, None, None)
-    except sqlite3.IntegrityError:
-        conn.rollback()
+    except sqlite3.IntegrityError: #si l'insertion échoue car le nom d'utilisateur existe déjà
+        conn.rollback() #on annule les changements
         return (False, DUPLICATE_USERNAME, username)
     # REMOVE THE FOLLOWING INSTRUCTION WHEN YOU WRITE YOUR CODE
     
@@ -99,24 +99,24 @@ def login_correct(username, password, cursor):
 
     #### CURRENT IMPLEMENTATION THAT ONLY GRANTS ACCESS TO USER admin WITH PASSWORD "Adm1n!"
     # REMOVE THIS CODE WHEN YOU WRITE YOUR IMPLEMENTATION
-    # 1. Query the database for the user's stored hashed password
+    #On interroge la base de données pour avoir le mot de passe haché 
     sql_query = "SELECT password FROM Login WHERE username = ?"
     cursor.execute(sql_query, (username,))
     result = cursor.fetchone()
 
-    # 2. Check if the username exists
+    #on regarde si le nom d'utilisateur existe bien
     if result is None:
         return (False, USERNAME_NOT_FOUND, username)
     
-    # The stored password is the first (and only) element of the result tuple
+    # le mot de passe enregistré est le premier
     hashed_password_from_db = result[0]
     
-    # 3. Verify the plain-text password against the stored hash
-    # pwd_context is accessible from the module's scope
+    # On vérifie le mot de passe en clair par rapport au haché
+    # la variable `pwd_context` est accessible 
     if pwd_context.verify(password, hashed_password_from_db):
-        return (True, None, None) # Passwords match
+        return (True, None, None) # le password correspond
     else:
-        return (False, INCORRECT_PASSWORD, password) # Passwords do not match
+        return (False, INCORRECT_PASSWORD, password) #si le password ne marche pas 
     
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
     # The function must check whether an account with the given username and password 

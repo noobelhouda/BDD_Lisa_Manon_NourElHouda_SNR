@@ -23,17 +23,17 @@ def load_config():
     with open("./config/config", mode="r", encoding="utf-8", newline="") as f:
         reader = csv.reader(f, delimiter=",")
         for row in reader:
-            # Ignorer les lignes vides
+            # ignore les lignes vides
             if not row:
                 continue
 
             key = row[0].strip()
 
-            # Ignorer les commentaires ou clés vides
+            # ignore les commentaires ou clés vides
             if not key or key.startswith("#"):
                 continue
 
-            # Si pas de valeur, on met une chaîne vide
+            # si pas de valeur, on met une chaîne vide
             value = ""
             if len(row) > 1:
                 value = row[1].strip()
@@ -67,13 +67,13 @@ def load_messages_bundle(messages_bundle_file):
     with open(messages_bundle_file, mode="r", encoding="utf-8", newline="") as f:
         reader = csv.reader(f, delimiter=",")
         for row in reader:
-            # Ignorer les lignes vides
+            # ignore les lignes vides
             if not row:
                 continue
 
             key = row[0].strip()
 
-            # Ignorer les commentaires ou clés vides
+            # Ignore les commentaires ou clés vides
             if not key or key.startswith("#"):
                 continue
 

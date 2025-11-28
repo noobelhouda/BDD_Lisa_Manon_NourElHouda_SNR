@@ -42,7 +42,7 @@ def extract():
 
     ################## TODO: COMPLETE THE CODE OF THIS FUNCTION  #####################
 
-    # Lire les CSV
+    # Lecture des CSV
     registrations_df = pd.read_csv("./data/student_registrations.csv", delimiter=";")
     memberships_df   = pd.read_csv("./data/student_memberships.csv", delimiter=";")
 
@@ -63,7 +63,7 @@ def extract():
         ["stud_number", "year", "registration_date", "payment_date"]
     ]
 
-    # Remplir le dictionnaire
+    # Rempli le dictionnaire
     dataframes = {
         "Student": student_df,
         "EmailAddress": email_df,

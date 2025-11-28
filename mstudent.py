@@ -304,7 +304,7 @@ def add_email_address(stud_number, email_address, cursor):
         return (True, None, None)
     except sqlite3.IntegrityError as e:
         msg = str(e)
-        # Email déjà utilisée (contrainte unique)
+        # Email déjà utilisée 
         if "EmailAddress.email" in msg or "UNIQUE constraint failed: EmailAddress.email" in msg:
             return (False, DUPLICATE_EMAIL_ADDRESS, email_address)
         else:
