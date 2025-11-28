@@ -109,8 +109,18 @@ def _unpaid_registrations():
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    # 
+    sql_query = "SELECT stud_number, year, registration_date FROM Registration WHERE payment_date IS NULL"
+    try:
+        # exécute la requête dans la base de données
+        cursor.execute(sql_query)
+        # récupère toutes les lignes de résultat
+        return cursor.fetchall()
+    except sqlite3.Error as e:
+        # si il y a une erreur de base de données on l'affiche
+        print(f"erreur de base de données pendant la recherche des non payés: {e}")
+        # retourne une liste vide en cas d'erreur
+        return []
 
     ####################################################################################
 
@@ -131,8 +141,18 @@ def _expired_registrations(unpaid_registrations):
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ##########
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    expired_regs = []
+    # pour chaque inscription non payée (qui est un tuple stud_number, year, registration_date)
+    for reg in unpaid_registrations:
+        # la date d'inscription est le troisième élément (index 2)
+        registration_date_str = reg[2]
+        # on utilise la fonction déjà faite pour vérifier si la date limite est dépassée
+        if deadline_expired(registration_date_str):
+            # si c'est expiré on ajoute cette inscription à la liste
+            expired_regs.append(reg)
+            
+    # retourne la liste des inscriptions expirées
+    return expired_regs
 
     ####################################################################################
     
@@ -153,8 +173,47 @@ def _late_payment_registrations(unpaid_registrations):
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ################
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    late_payment_regs = []
+    
+    # on parcourt toutes les inscriptions non payées
+    for stud_number, year, registration_date_str in unpaid_registrations:
+        # on vérifie si la date limite approche (dans 2 jours) avec la fonction prédéfinie
+        if deadline_aproaching(registration_date_str):
+            
+            # requête pour trouver le prénom de l'étudiant son email et la date d'inscription
+            # on fait une jointure entre registration student has et emailaddress
+            sql_query = """
+                SELECT 
+                    T1.first_name, 
+                    T3.email,
+                    T0.registration_date
+                FROM 
+                    Registration AS T0
+                INNER JOIN 
+                    Student AS T1 ON T0.stud_number = T1.stud_number
+                INNER JOIN 
+                    has AS T2 ON T1.stud_number = T2.stud_number
+                INNER JOIN
+                    EmailAddress AS T3 ON T2.email = T3.email
+                WHERE 
+                    T0.stud_number = ? AND T0.year = ? AND T0.registration_date = ?
+            """
+            
+            try:
+                # exécute la requête pour cet étudiant et cette inscription
+                cursor.execute(sql_query, (stud_number, year, registration_date_str))
+                result = cursor.fetchone()
+                
+                if result:
+                    # si on trouve les informations on les ajoute à la liste
+                    late_payment_regs.append(result)
+                    
+            except sqlite3.Error as e:
+                # gestion d'erreur si la requête échoue
+                print(f"erreur de base de données lors de la récupération des détails de paiement tardif: {e}")
+
+    # retourne la liste des inscriptions nécessitant un rappel
+    return late_payment_regs
 
     ####################################################################################
 
@@ -185,8 +244,31 @@ def _remove_expired_registrations(expired_registrations):
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ################
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    successful_deletion = True
+    
+    # pour chaque inscription expirée on tente de la supprimer
+    for stud_number, year, _ in expired_registrations:
+        # on appelle la fonction de suppression du module mregistration
+        # on suppose qu'elle renvoie (vrai/faux, code_erreur, données)
+        res = mreg.delete_registration(stud_number, year, cursor, conn)
+        
+        # si la suppression a échoué (res[0] est faux)
+        if not res[0]:
+            successful_deletion = False
+            # on arrête la boucle
+            break
+            
+    # gestion de la transaction
+    if successful_deletion:
+        # si toutes les suppressions ont réussi on sauvegarde les changements
+        conn.commit()
+        # on retourne succès
+        return (True, None, None) 
+    else:
+        # si une suppression a échoué on annule toutes les suppressions de la transaction
+        conn.rollback()
+        # on retourne le résultat de l'échec
+        return res
 
     ####################################################################################
 
@@ -201,8 +283,46 @@ def _send_late_payment_reminder(late_payment_registrations):
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ###############
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    # configuration smtp (à ajuster)
+    smtp_server = "smtp.example.com"
+    smtp_port = 587 
+    sender_email = "skisatiresa@example.com"
+    sender_password = "your_app_password" 
+
+    try:
+        # se connecter au serveur smtp en utilisant tls pour la sécurité
+        with smtplib.SMTP(smtp_server, smtp_port) as server:
+            server.starttls()
+            server.login(sender_email, sender_password)
+
+            # pour chaque étudiant à qui envoyer un rappel
+            for first_name, recipient_email, registration_date_str in late_payment_registrations:
+                
+                # charger le modèle de message de rappel
+                # on suppose ici que load_config et load_messages_bundle sont définis
+                config = utils.load_config()
+                messages_bundle = utils.load_messages_bundle(config["bundle"] + config["lang"])
+                
+                body = messages_bundle["payment_reminder_email"].format(
+                    first_name=first_name,
+                    registration_date=registration_date_str,
+                    deadline=deadline(utils.get_date(registration_date_str))
+                )
+                
+                # créer l'email
+                msg = MIMEMultipart()
+                msg['From'] = sender_email
+                msg['To'] = recipient_email
+                msg['Subject'] = "rappel de paiement pour votre inscription skisatiresa"
+                msg.attach(MIMEText(body, 'plain'))
+
+                # envoyer l'email
+                server.sendmail(sender_email, recipient_email, msg.as_string())
+                print(f"rappel envoyé avec succès à {recipient_email} ({first_name})")
+                
+    except Exception as e:
+        # si il y a une erreur lors de l'envoi d'email
+        print(f"erreur lors de l'envoi d'email: {e}")
 
     ####################################################################################
      
@@ -222,8 +342,39 @@ def deadline_management():
     """
     ############ TODO: WRITE HERE THE CODE TO IMPLEMENT THIS FUNCTION ################
 
-    # REMOVE THIS INSTRUCTION WHEN YOU WRITE YOUR CODE
-    pass
+    print("--- lancement de la gestion des délais ---")
+    
+    # 1 récupère toutes les inscriptions non payées
+    unpaid_regs = _unpaid_registrations()
+    
+    if not unpaid_regs:
+        print("aucune inscription non payée trouvée arrêt")
+        return
 
+    # 2 identifie celles qui sont expirées
+    expired_regs = _expired_registrations(unpaid_regs)
+    
+    # 3 identifie celles dont le paiement est en retard (rappel à envoyer)
+    late_payment_regs = _late_payment_registrations(unpaid_regs)
+    
+    # 4 supprime les inscriptions expirées
+    if expired_regs:
+        print(f"suppression de {len(expired_regs)} inscriptions expirées...")
+        res = _remove_expired_registrations(expired_regs)
+        if res[0]:
+            print("inscriptions expirées supprimées avec succès")
+        else:
+            print(f"échec de la suppression des inscriptions expirées: {res[1]}")
+    else:
+        print("aucune inscription expirée à supprimer")
+
+    # 5 envoie un rappel pour les paiements en retard
+    if late_payment_regs:
+        print(f"envoi de rappels à {len(late_payment_regs)} étudiants pour paiement tardif...")
+        _send_late_payment_reminder(late_payment_regs)
+    else:
+        print("aucun rappel de paiement tardif à envoyer")
+        
+    print("--- gestion des délais terminée ---")
     ####################################################################################
   
